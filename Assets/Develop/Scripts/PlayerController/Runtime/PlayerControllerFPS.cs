@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityEditor;
 using Interactable.Runtime;
+using MyCursor.Runtime;
 
 namespace PlayerController.Runtime
 {
@@ -80,14 +81,14 @@ namespace PlayerController.Runtime
 
         private void Awake() 
         {
-            UpdateCursor();    
+            CursorManager.UpdateCursor();    
         }
 
         private void Update() 
         {
             Rotate();
             TryInteract();  
-            TryToggleMouse();  
+            TryToggleCursor();  
         }
 
         private void FixedUpdate() 
@@ -103,7 +104,7 @@ namespace PlayerController.Runtime
 
         private void Move()
         {
-            if(_isCursorVisible) return;
+            if(CursorManager.IsVisible) return;
 
             ComputeDirection();
 
@@ -112,7 +113,7 @@ namespace PlayerController.Runtime
 
         private void Rotate()
         {
-            if(_isCursorVisible) return;
+            if(CursorManager.IsVisible) return;
 
             ComputeRotation();
 
@@ -143,11 +144,11 @@ namespace PlayerController.Runtime
             _targetInteractable.Interacted(this);
         }
 
-        private void TryToggleMouse()
+        private void TryToggleCursor()
         {
             if(Input.GetKeyDown(KeyCode.A))
             {
-                ToggleCursor();
+                CursorManager.ToggleCursor();
             }
         }
 
@@ -193,25 +194,11 @@ namespace PlayerController.Runtime
             return true;
         }
 
-        public void ToggleCursor()
-        {
-            _isCursorVisible = !_isCursorVisible;
-
-            UpdateCursor();
-        }
-
-        public void UpdateCursor()
-        {   
-            Cursor.visible = _isCursorVisible;
-            Cursor.lockState = _isCursorVisible ? CursorLockMode.None : CursorLockMode.Locked;
-        }
-
         #endregion
 
 
         #region Private
 
-        private bool _isCursorVisible;
         private float _verticalAngle;
         private Vector3 _direction;
         private Vector3 _bodyRotation;

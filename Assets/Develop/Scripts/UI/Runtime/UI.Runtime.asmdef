@@ -1,8 +1,8 @@
 {
-    "name": "PlayerController.Runtime",
+    "name": "UI.Runtime",
     "rootNamespace": "",
     "references": [
-        "GUID:be963cd9e65222c41b263031261ca3b7",
+        "GUID:b664176d2112740418946395011faf03",
         "GUID:fe7cfe2def70fea499c6fe820ecd35ef"
     ],
     "includePlatforms": [],

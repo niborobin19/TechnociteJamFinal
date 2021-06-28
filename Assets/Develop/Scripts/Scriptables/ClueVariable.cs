@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Scriptable.Runtime
+namespace Scriptables.Runtime
 {
     [CreateAssetMenu(menuName ="Datas/Clue/Variable", fileName ="new clue variable")]
     public class ClueVariable : ScriptableObject
@@ -23,8 +23,17 @@ namespace Scriptable.Runtime
             set
             {
                 _clue = value ? value : nullClue;
+                OnClueChanged?.Invoke(_clue);
             }
         }
+
+        #endregion
+
+
+        #region Events
+
+        public delegate void OnClueChangedHandler(ScriptableClue next);
+        public OnClueChangedHandler OnClueChanged;
 
         #endregion
 
@@ -34,9 +43,13 @@ namespace Scriptable.Runtime
         private void OnValidate() 
         {
             SetNullClue(_nullClue);
-            
+
+            if(nullClue != null)
+            {
+                _nullClue = nullClue;
+            }
+
             Clue = _clue;
-            _nullClue = nullClue;
         }
 
         #endregion

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Scriptable.Runtime
+namespace Scriptables.Runtime
 {
     [CreateAssetMenu(menuName ="Datas/Clue/Instance", fileName ="new clue")]
     public class ScriptableClue : ScriptableObject
@@ -53,7 +53,7 @@ namespace Scriptable.Runtime
             get => _isDiscovered;
             set
             {
-                _isDiscovered = true;
+                _isDiscovered = value;
             }
         }
 

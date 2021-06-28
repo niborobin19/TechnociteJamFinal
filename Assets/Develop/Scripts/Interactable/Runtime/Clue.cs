@@ -1,5 +1,5 @@
 using UnityEngine;
-using Scriptable.Runtime;
+using Scriptables.Runtime;
 
 namespace Interactable.Runtime
 {
@@ -10,6 +10,9 @@ namespace Interactable.Runtime
         [Header("Datas")]
         [SerializeField]
         private ScriptableClue _clue;
+
+        [SerializeField]
+        private ClueVariable _displayedClue;
 
         #endregion
 
@@ -23,13 +26,17 @@ namespace Interactable.Runtime
 
         public void Interacted(Object source)
         {
-            
+            _clue.IsDiscovered = true;
+            _displayedClue.Clue = _clue;
         }
 
         #endregion
 
 
         #region Private
+
+        private Vector3 _startingPosition;
+        private Quaternion _startingRotation;
 
         #endregion
     }

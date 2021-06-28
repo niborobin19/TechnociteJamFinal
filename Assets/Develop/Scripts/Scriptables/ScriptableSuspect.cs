@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Scriptable.Runtime
+namespace Scriptables.Runtime
 {
     public class ScriptableSuspect : ScriptableObject
     {

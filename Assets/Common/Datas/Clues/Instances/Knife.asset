@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e852d00a717c05249b453de1ff2014ec, type: 3}
   m_Name: Knife
   m_EditorClassIdentifier: 
-  _name: 
-  _description: 
-  _sprite: {fileID: 0}
+  _name: Couteau
+  _description: "Un couteau ensanglant\xE9"
+  _sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
