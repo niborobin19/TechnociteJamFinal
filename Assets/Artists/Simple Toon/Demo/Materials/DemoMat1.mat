@@ -75,7 +75,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Offset: 0.23
-    - _OtlWidth: 2.77
+    - _OtlWidth: 5
     - _Parallax: 0.02
     - _PostAtten: 0
     - _RimIntense: 0.552
@@ -84,9 +84,9 @@ Material:
     - _RimSmooth: 1
     - _RimTolerc: 1
     - _Segmented: 1
-    - _ShnIntense: 0.219
+    - _ShnIntense: 0.132
     - _ShnOverlap: 0
-    - _ShnRange: 0.36
+    - _ShnRange: 0.135
     - _ShnSmooth: 1
     - _SmoothnessTextureChannel: 0
     - _SpcIntence: 0
