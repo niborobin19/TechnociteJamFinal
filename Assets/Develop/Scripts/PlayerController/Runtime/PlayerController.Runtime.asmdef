@@ -1,0 +1,16 @@
+{
+    "name": "PlayerController.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:be963cd9e65222c41b263031261ca3b7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
