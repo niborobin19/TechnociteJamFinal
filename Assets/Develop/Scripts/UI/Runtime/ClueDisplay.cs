@@ -14,6 +14,12 @@ namespace UI.Runtime
 
         [Header("References")]
         [SerializeField]
+        private ClueAndSuspectRegistry _registy;
+
+        [SerializeField]
+        private SuspectLinkButton _suspectButtonPrefab;
+
+        [SerializeField]
         private GameObject _content;
 
         [SerializeField]
@@ -24,6 +30,9 @@ namespace UI.Runtime
 
         [SerializeField]
         private Text _clueDescription;
+
+        [SerializeField]
+        private Transform _suspectLinksRoot;
 
         #endregion
 
@@ -61,6 +70,27 @@ namespace UI.Runtime
             _clueImage.sprite = _clue.Clue.Sprite;
             _clueName.text = _clue.Clue.Name;
             _clueDescription.text = _clue.Clue.Description;
+
+            RegenerateSuspects();
+        }
+
+        private void RegenerateSuspects()
+        {
+            for (int i = _suspectLinksRoot.childCount-1; i >= 0; i--)
+            {
+                Destroy(_suspectLinksRoot.GetChild(i).gameObject);    
+            }
+
+            foreach (var suspect in _registy.Suspects)
+            {
+                if(suspect.IsDisplayable)
+                {
+                    var button = Instantiate<SuspectLinkButton>(_suspectButtonPrefab, _suspectLinksRoot);
+                    button.SetClue(_clue.Clue);
+                    button.SetSuspect(suspect);
+                    button.UpdateDisplay();
+                }
+            }
         }
 
         #endregion

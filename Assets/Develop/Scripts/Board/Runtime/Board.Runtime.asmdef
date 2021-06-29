@@ -1,3 +1,17 @@
 {
-	"name": "Board.Runtime"
+    "name": "Board.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:be963cd9e65222c41b263031261ca3b7",
+        "GUID:b664176d2112740418946395011faf03"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

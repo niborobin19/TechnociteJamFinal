@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using Scriptables.Runtime;
 
@@ -18,6 +19,9 @@ namespace Interactable.Runtime
         [SerializeField]
         private SpriteRenderer _sprite;
 
+        [SerializeField]
+        private Transform _pin;
+
         #endregion
 
 
@@ -25,6 +29,7 @@ namespace Interactable.Runtime
 
         private void Awake() 
         {
+            _linesToClues = new Dictionary<ScriptableClue, GameObject>();
             UpdateDisplay();  
         }
 
@@ -42,12 +47,34 @@ namespace Interactable.Runtime
         {
             _sprite.sprite = _suspect.Sprite;
             gameObject.SetActive(_suspect.IsDisplayable);
+            UpdateLines();
+        }
+
+        private void UpdateLines()
+        {
+            foreach (var item in _linesToClues)
+            {
+                item.Value.SetActive(_suspect.HasLinkTo(item.Key));
+            }
+        }
+
+        public Transform GetPin()
+        {
+            return _pin;
+        }
+
+        public void AddLineEntry(ScriptableClue clue, GameObject line)
+        {
+            if(_linesToClues.ContainsKey(clue)) return;
+            
+            _linesToClues.Add(clue, line);
         }
 
         #endregion
 
 
         #region Private
+        private Dictionary<ScriptableClue, GameObject> _linesToClues;
 
         #endregion
     }

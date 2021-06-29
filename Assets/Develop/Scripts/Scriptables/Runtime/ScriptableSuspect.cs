@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using Events.Runtime;
 
 namespace Scriptables.Runtime
 {
@@ -29,6 +30,10 @@ namespace Scriptables.Runtime
         [Header("Datas")]
         [SerializeField]
         private List<ScriptableClue> _relatedClues;
+
+        [Header("Event")]
+        [SerializeField]
+        private ScriptableEvent _onSuspectChanged;
 
         #endregion
 
@@ -140,6 +145,7 @@ namespace Scriptables.Runtime
             if(_linkedClues.Contains(clue)) return;
 
             _linkedClues.Add(clue);
+            _onSuspectChanged.Raise();
         }
 
         public void UnlinkClue(ScriptableClue clue)
@@ -147,6 +153,7 @@ namespace Scriptables.Runtime
             if(!_linkedClues.Contains(clue)) return;
 
             _linkedClues.Remove(clue);
+            _onSuspectChanged.Raise();
         }
 
         public bool HasLinkTo(ScriptableClue clue)

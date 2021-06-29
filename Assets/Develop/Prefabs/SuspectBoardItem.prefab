@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 7571630416795973288}
   - component: {fileID: 7571630416795973286}
   - component: {fileID: 7571630416795973287}
+  - component: {fileID: 5115464989522887101}
   m_Layer: 3
   m_Name: SuspectBoardItem
   m_TagString: Untagged
@@ -79,6 +80,7 @@ MonoBehaviour:
   _suspect: {fileID: 11400000, guid: a9c18e4c9e951eb42b012c37b409e750, type: 2}
   _displayedSuspect: {fileID: 11400000, guid: 595a81eefed35f342bf2dac96e4b9857, type: 2}
   _sprite: {fileID: 347102775758955246}
+  _pin: {fileID: 9151687612148109918}
 --- !u!65 &7571630416795973287
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -92,6 +94,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5, z: 0.02}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5115464989522887101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7571630416795973290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4182c6582d4094d42aa144cd6a644bda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _event: {fileID: 11400000, guid: 170997ae22d733d4d9d660f05b1644ec, type: 2}
+  _onEventRaised:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7571630416795973286}
+        m_TargetAssemblyTypeName: Interactable.Runtime.SuspectBoardItem, Interactable.Runtime
+        m_MethodName: UpdateDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &9050689686756803586
 GameObject:
   m_ObjectHideFlags: 0

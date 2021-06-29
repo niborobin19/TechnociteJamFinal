@@ -25,6 +25,9 @@ namespace UI.Runtime
         [SerializeField]
         private Text _suspectDescription;
 
+        [SerializeField]
+        private Button _chargeButton;
+
         #endregion
 
 
@@ -61,6 +64,7 @@ namespace UI.Runtime
             _suspectImage.sprite = _suspect.Suspect.Sprite;
             _suspectName.text = _suspect.Suspect.Name;
             _suspectDescription.text = _suspect.Suspect.Description;
+            _chargeButton.interactable = _suspect.Suspect.IsChargeable;
         }
 
         #endregion

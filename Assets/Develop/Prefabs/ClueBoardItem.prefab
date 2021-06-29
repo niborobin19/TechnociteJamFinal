@@ -162,6 +162,7 @@ MonoBehaviour:
   _clue: {fileID: 11400000, guid: 55651f06032e76b44bc274fbe9563feb, type: 2}
   _displayedClue: {fileID: 11400000, guid: 2f665c5a669b57b4a8606211832ea775, type: 2}
   _sprite: {fileID: 2934855389572118215}
+  _pin: {fileID: 8974900688166716460}
 --- !u!114 &6919206783550737558
 MonoBehaviour:
   m_ObjectHideFlags: 0

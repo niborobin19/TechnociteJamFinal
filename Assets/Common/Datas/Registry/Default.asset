@@ -9,17 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e2713c857ed383459642f392fc708df, type: 3}
-  m_Name: Robin
+  m_Script: {fileID: 11500000, guid: 7606cb26312a2c449812225eb904bf20, type: 3}
+  m_Name: Default
   m_EditorClassIdentifier: 
-  _name: Robin
-  _description: "un \xE9trange personnage"
-  _sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  _displayClueCount: 1
-  _isCulprit: 1
-  _endingStory: "Apr\xE8s tout, Robin est toujours Coupable"
-  _relatedClues:
+  _suspects:
+  - {fileID: 11400000, guid: 19e5e42952c3ab242851423ce15db393, type: 2}
+  - {fileID: 11400000, guid: 56c64de97026c3247983f8dd1509461a, type: 2}
+  _clues:
   - {fileID: 11400000, guid: ffa51500736792c44b28f8810fe57ca2, type: 2}
   - {fileID: 11400000, guid: 19c11df753592514ab778886f9fbeb44, type: 2}
   - {fileID: 11400000, guid: 287caf502467111458fd27a4073fb5bd, type: 2}
-  _onSuspectChanged: {fileID: 11400000, guid: 69c9c7bdf4740494888ebbc181560a8a, type: 2}
