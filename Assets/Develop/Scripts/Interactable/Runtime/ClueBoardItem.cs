@@ -3,7 +3,7 @@ using Scriptables.Runtime;
 
 namespace Interactable.Runtime
 {
-    public class Clue : MonoBehaviour, IInteractable
+    public class ClueBoardItem : MonoBehaviour, IInteractable
     {
         #region Exposed
 
@@ -14,10 +14,19 @@ namespace Interactable.Runtime
         [SerializeField]
         private ClueVariable _displayedClue;
 
+        [Header("References")]
+        [SerializeField]
+        private SpriteRenderer _sprite;
+
         #endregion
 
 
         #region Unity API
+
+        private void Awake() 
+        {
+            UpdateDisplay();  
+        }
 
         #endregion
 
@@ -26,17 +35,19 @@ namespace Interactable.Runtime
 
         public void Interacted(Object source)
         {
-            _clue.IsDiscovered = true;
             _displayedClue.Clue = _clue;
+        }
+
+        public void UpdateDisplay()
+        {
+            _sprite.sprite = _clue.Sprite;
+            gameObject.SetActive(_clue.IsDiscovered);
         }
 
         #endregion
 
 
         #region Private
-
-        private Vector3 _startingPosition;
-        private Quaternion _startingRotation;
 
         #endregion
     }
