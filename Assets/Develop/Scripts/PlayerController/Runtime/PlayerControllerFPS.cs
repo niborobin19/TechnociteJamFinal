@@ -3,12 +3,16 @@ using UnityEngine;
 using UnityEditor;
 using Interactable.Runtime;
 using MyCursor.Runtime;
+using Scriptables.Runtime;
 
 namespace PlayerController.Runtime
 {
     public class PlayerControllerFPS : MonoBehaviour
     {
         #region Exposed
+        [Header("Datas")]
+        [SerializeField]
+        private ObjectVariable _target;
 
         [Header("Variables")]
         [SerializeField, Min(0.0f)]
@@ -128,10 +132,12 @@ namespace PlayerController.Runtime
             if(Physics.Raycast(ray, out RaycastHit hit, _interactionRange, _interactionLayer))
             {
                 _targetInteractable = hit.collider.gameObject.GetComponent<IInteractable>();
+                _target.Value = hit.collider;
             }
             else
             {
                 _targetInteractable = null;
+                _target.Value = null;
             }
         }
 
