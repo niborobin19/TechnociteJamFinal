@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Scriptables.Runtime
 {
-    [CreateAssetMenu(menuName ="Datas/Suspect", fileName = "New Suspect")]
+    [CreateAssetMenu(menuName ="Datas/Suspect/Instance", fileName = "New Suspect")]
    public class ScriptableSuspect : ScriptableObject
     {
         #region Exposed
@@ -18,7 +18,7 @@ namespace Scriptables.Runtime
         private Sprite _sprite;
 
         [SerializeField]
-        private int _requiredCluesToDisplay;
+        private int _displayClueCount;
 
         [SerializeField]
         private bool _isCulprit;
@@ -65,13 +65,13 @@ namespace Scriptables.Runtime
             }
         }
 
-        public int RequiredCluesToDisplay
+        public int DisplayClueCount
         {
-            get => _requiredCluesToDisplay;
+            get => _displayClueCount;
 
             set
             {
-                _requiredCluesToDisplay = value;
+                _displayClueCount = value;
             }
         }
 
@@ -187,7 +187,7 @@ namespace Scriptables.Runtime
                 discoveredCount += clue.IsDiscovered ? 1 : 0;
             }
 
-            return discoveredCount >= RequiredCluesToDisplay;
+            return discoveredCount >= DisplayClueCount;
         }
 
         #endregion

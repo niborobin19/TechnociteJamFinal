@@ -5,25 +5,25 @@ using MyCursor.Runtime;
 
 namespace UI.Runtime
 {
-    public class ClueDisplay : MonoBehaviour
+    public class SuspectDisplay : MonoBehaviour
     {
         #region Exposed
         [Header("Datas")]
         [SerializeField]
-        private ClueVariable _clue;
+        private SuspectVariable _suspect;
 
         [Header("References")]
         [SerializeField]
         private GameObject _content;
 
         [SerializeField]
-        private Image _clueImage;
+        private Image _suspectImage;
 
         [SerializeField]
-        private Text _clueName;
+        private Text _suspectName;
 
         [SerializeField]
-        private Text _clueDescription;
+        private Text _suspectDescription;
 
         #endregion
 
@@ -50,7 +50,7 @@ namespace UI.Runtime
         }
 
 
-        public void ClueVariable_OnClueChanged()
+        public void SuspectVariable_OnClueChanged()
         {
             Show();
             UpdateDisplay();
@@ -58,9 +58,9 @@ namespace UI.Runtime
 
         private void UpdateDisplay()
         {
-            _clueImage.sprite = _clue.Clue.Sprite;
-            _clueName.text = _clue.Clue.Name;
-            _clueDescription.text = _clue.Clue.Description;
+            _suspectImage.sprite = _suspect.Suspect.Sprite;
+            _suspectName.text = _suspect.Suspect.Name;
+            _suspectDescription.text = _suspect.Suspect.Description;
         }
 
         #endregion
