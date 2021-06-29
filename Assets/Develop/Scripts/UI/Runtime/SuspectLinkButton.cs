@@ -60,7 +60,6 @@ namespace UI.Runtime
         private void Square()
         {
             var rect = (_backGround.rectTransform.parent as RectTransform).rect;
-            Debug.Log(rect);
             rect.size = new Vector2(rect.height, rect.height);
 
             _backGround.rectTransform.sizeDelta = rect.size;

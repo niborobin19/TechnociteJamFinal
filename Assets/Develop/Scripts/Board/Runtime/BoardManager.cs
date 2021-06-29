@@ -63,12 +63,10 @@ namespace Board.Runtime
             foreach (var suspect in _suspectRoot.GetComponentsInChildren<SuspectBoardItem>())
             {
                 var suspectPin = suspect.GetPin();
-                Debug.Log(suspect, suspect);
 
                 foreach (var clue in _cluesRoot.GetComponentsInChildren<ClueBoardItem>())
                 {
                     var cluePin = clue.GetPin();
-                    Debug.Log(clue);
 
                     var line = GenerateLineBetween(suspectPin, cluePin);
                     line.SetActive(false);
