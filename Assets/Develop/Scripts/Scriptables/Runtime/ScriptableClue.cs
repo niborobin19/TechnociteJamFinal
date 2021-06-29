@@ -12,7 +12,7 @@ namespace Scriptables.Runtime
         [SerializeField]
         private string _name;
 
-        [SerializeField]
+        [SerializeField, TextArea]
         private string _description;
 
         [SerializeField]
