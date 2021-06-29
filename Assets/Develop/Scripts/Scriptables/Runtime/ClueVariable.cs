@@ -12,7 +12,7 @@ namespace Scriptables.Runtime
         [SerializeField]
         private ScriptableClue _clue;
 
-        [SerializeField, Tooltip("Shared between all clues")]
+        [SerializeField, Tooltip("Shared between all clue variables")]
         private ScriptableClue _nullClue;
 
         [Header("Events")]
