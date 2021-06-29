@@ -535,6 +535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7610747318444369923}
   - component: {fileID: 4955222058162348269}
+  - component: {fileID: 802167521503799660}
   m_Layer: 5
   m_Name: 2DClueDisplay
   m_TagString: Untagged
@@ -579,6 +580,34 @@ MonoBehaviour:
   _clueImage: {fileID: 4626746961385323538}
   _clueName: {fileID: 4240866070092127446}
   _clueDescription: {fileID: 3227142946288715131}
+--- !u!114 &802167521503799660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8107248820521828134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4182c6582d4094d42aa144cd6a644bda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _event: {fileID: 11400000, guid: a568c925b88d1474782869bad2118020, type: 2}
+  _onEventRaised:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4955222058162348269}
+        m_TargetAssemblyTypeName: UI.Runtime.ClueDisplay, UI.Runtime
+        m_MethodName: ClueVariable_OnClueChanged
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &8140640719505208072
 GameObject:
   m_ObjectHideFlags: 0

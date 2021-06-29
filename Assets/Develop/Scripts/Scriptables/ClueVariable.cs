@@ -1,4 +1,6 @@
+using System.Diagnostics.Tracing;
 using UnityEngine;
+using Events.Runtime;
 
 namespace Scriptables.Runtime
 {
@@ -6,11 +8,16 @@ namespace Scriptables.Runtime
     public class ClueVariable : ScriptableObject
     {
         #region Exposed
+        [Header("Datas")]
         [SerializeField]
         private ScriptableClue _clue;
 
         [SerializeField, Tooltip("Shared between all clues")]
         private ScriptableClue _nullClue;
+
+        [Header("Events")]
+        [SerializeField]
+        private ScriptableEvent _onClueChanged;
 
         #endregion
 
@@ -23,7 +30,7 @@ namespace Scriptables.Runtime
             set
             {
                 _clue = value ? value : nullClue;
-                OnClueChanged?.Invoke(_clue);
+                _onClueChanged.Raise();
             }
         }
 
@@ -31,9 +38,6 @@ namespace Scriptables.Runtime
 
 
         #region Events
-
-        public delegate void OnClueChangedHandler(ScriptableClue next);
-        public OnClueChangedHandler OnClueChanged;
 
         #endregion
 

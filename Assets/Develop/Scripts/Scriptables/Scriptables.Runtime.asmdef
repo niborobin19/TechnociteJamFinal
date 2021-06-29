@@ -1,3 +1,16 @@
 {
-	"name": "Scriptables.Runtime"
+    "name": "Scriptables.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d30ac7f4b4368834f85507b4d7a1667c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

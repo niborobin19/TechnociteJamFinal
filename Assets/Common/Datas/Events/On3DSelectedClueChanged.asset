@@ -9,9 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e852d00a717c05249b453de1ff2014ec, type: 3}
-  m_Name: Spoon
+  m_Script: {fileID: 11500000, guid: d9e33c4cc9e56ba469da7dc5e595bd78, type: 3}
+  m_Name: On3DSelectedClueChanged
   m_EditorClassIdentifier: 
-  _name: Cuiller
-  _description: "Une cuiller ensanglant\xE9"
-  _sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}

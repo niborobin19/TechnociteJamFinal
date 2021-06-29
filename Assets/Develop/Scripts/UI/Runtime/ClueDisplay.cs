@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Scriptables.Runtime;
 using MyCursor.Runtime;
+using Events.Runtime;
 
 namespace UI.Runtime
 {
@@ -25,16 +26,10 @@ namespace UI.Runtime
         [SerializeField]
         private Text _clueDescription;
 
-
         #endregion
 
 
         #region Unity API
-
-        private void Awake() 
-        {
-            _clue.OnClueChanged += ClueVariable_OnClueChanged;    
-        }
 
         #endregion
 
@@ -56,17 +51,17 @@ namespace UI.Runtime
         }
 
 
-        private void ClueVariable_OnClueChanged(ScriptableClue next)
+        public void ClueVariable_OnClueChanged()
         {
             Show();
-            UpdateDisplay(next);
+            UpdateDisplay();
         }
 
-        private void UpdateDisplay(ScriptableClue value)
+        private void UpdateDisplay()
         {
-            _clueImage.sprite = value.Sprite;
-            _clueName.text = value.Name;
-            _clueDescription.text = value.Description;
+            _clueImage.sprite = _clue.Clue.Sprite;
+            _clueName.text = _clue.Clue.Name;
+            _clueDescription.text = _clue.Clue.Description;
         }
 
         #endregion

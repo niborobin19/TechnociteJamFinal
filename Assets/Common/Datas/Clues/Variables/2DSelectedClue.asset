@@ -9,9 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e852d00a717c05249b453de1ff2014ec, type: 3}
-  m_Name: Spoon
+  m_Script: {fileID: 11500000, guid: 176c6475778bade458fdf21da5b470f1, type: 3}
+  m_Name: 2DSelectedClue
   m_EditorClassIdentifier: 
-  _name: Cuiller
-  _description: "Une cuiller ensanglant\xE9"
-  _sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  _clue: {fileID: 11400000, guid: 19c11df753592514ab778886f9fbeb44, type: 2}
+  _nullClue: {fileID: 11400000, guid: 55651f06032e76b44bc274fbe9563feb, type: 2}

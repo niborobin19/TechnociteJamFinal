@@ -1,4 +1,5 @@
 using UnityEngine;
+using Events.Runtime;
 
 namespace Scriptables.Runtime
 {
@@ -7,6 +8,7 @@ namespace Scriptables.Runtime
     {
         #region Exposed
 
+        [Header("Variables")]
         [SerializeField]
         private string _name;
 
@@ -15,6 +17,12 @@ namespace Scriptables.Runtime
 
         [SerializeField]
         private Sprite _sprite;
+
+        
+        [Header("Events")]
+
+        [SerializeField]
+        private ScriptableEvent _onClueChanged;
 
         #endregion
 
@@ -54,6 +62,7 @@ namespace Scriptables.Runtime
             set
             {
                 _isDiscovered = value;
+                _onClueChanged.Raise();
             }
         }
 
@@ -62,7 +71,7 @@ namespace Scriptables.Runtime
 
         #region Unity API
 
-        private void Awake() 
+        private void OnEnable() 
         {
             IsDiscovered = false;
         }
@@ -73,6 +82,7 @@ namespace Scriptables.Runtime
         #region Private
 
         private bool _isDiscovered;
+        private bool _isDiscoveredRuntime;
 
         #endregion
     }
