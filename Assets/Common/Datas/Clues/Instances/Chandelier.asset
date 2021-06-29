@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e852d00a717c05249b453de1ff2014ec, type: 3}
-  m_Name: Spoon
+  m_Name: Chandelier
   m_EditorClassIdentifier: 
-  _name: Cuiller
-  _description: "Une cuiller ensanglant\xE9"
-  _sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  _onClueChanged: {fileID: 11400000, guid: c4ff0697397bcc84498ba008b9728cf8, type: 2}
+  _name: Chandelier
+  _description: Un chandelier Tordu
+  _sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  _onClueChanged: {fileID: 11400000, guid: 3fb3cf43637dada48b18879bcde5a64e, type: 2}

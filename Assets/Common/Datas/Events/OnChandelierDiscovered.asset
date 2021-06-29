@@ -9,10 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e852d00a717c05249b453de1ff2014ec, type: 3}
-  m_Name: 0Null
+  m_Script: {fileID: 11500000, guid: d9e33c4cc9e56ba469da7dc5e595bd78, type: 3}
+  m_Name: OnChandelierDiscovered
   m_EditorClassIdentifier: 
-  _name: 
-  _description: 
-  _sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
-  _onClueChanged: {fileID: 11400000, guid: 170997ae22d733d4d9d660f05b1644ec, type: 2}

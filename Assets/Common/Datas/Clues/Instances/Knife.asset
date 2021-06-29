@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Couteau
   _description: "Un couteau ensanglant\xE9"
-  _sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  _sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  _onClueChanged: {fileID: 11400000, guid: 4f6a96a3a29721e40a861d7d7cd9bd1f, type: 2}

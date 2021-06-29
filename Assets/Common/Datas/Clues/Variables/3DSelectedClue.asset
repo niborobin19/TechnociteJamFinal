@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 176c6475778bade458fdf21da5b470f1, type: 3}
   m_Name: 3DSelectedClue
   m_EditorClassIdentifier: 
-  _clue: {fileID: 11400000, guid: 19c11df753592514ab778886f9fbeb44, type: 2}
+  _clue: {fileID: 11400000, guid: 55651f06032e76b44bc274fbe9563feb, type: 2}
   _nullClue: {fileID: 11400000, guid: 55651f06032e76b44bc274fbe9563feb, type: 2}
-  _onClueChanged: {fileID: 0}
+  _onClueChanged: {fileID: 11400000, guid: dad1828223bd5f6458f641e53eaed2dd, type: 2}

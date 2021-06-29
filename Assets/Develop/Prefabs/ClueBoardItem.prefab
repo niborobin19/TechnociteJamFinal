@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83f912dbde4545043b3fe7db6f67e984, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clue: {fileID: 11400000, guid: 19c11df753592514ab778886f9fbeb44, type: 2}
+  _clue: {fileID: 11400000, guid: 55651f06032e76b44bc274fbe9563feb, type: 2}
   _displayedClue: {fileID: 11400000, guid: 2f665c5a669b57b4a8606211832ea775, type: 2}
   _sprite: {fileID: 6919206783550737556}
 --- !u!114 &6919206783550737558
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4182c6582d4094d42aa144cd6a644bda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event: {fileID: 11400000, guid: 4f6a96a3a29721e40a861d7d7cd9bd1f, type: 2}
+  _event: {fileID: 11400000, guid: 170997ae22d733d4d9d660f05b1644ec, type: 2}
   _onEventRaised:
     m_PersistentCalls:
       m_Calls:

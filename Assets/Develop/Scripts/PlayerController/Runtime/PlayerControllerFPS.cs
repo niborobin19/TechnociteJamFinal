@@ -129,6 +129,10 @@ namespace PlayerController.Runtime
             {
                 _targetInteractable = hit.collider.gameObject.GetComponent<IInteractable>();
             }
+            else
+            {
+                _targetInteractable = null;
+            }
         }
 
         private void TryInteract()
