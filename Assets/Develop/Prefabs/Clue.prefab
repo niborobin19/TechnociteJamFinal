@@ -108,3 +108,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beac45491358124438547e9e858312a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _clue: {fileID: 11400000, guid: 55651f06032e76b44bc274fbe9563feb, type: 2}
+  _displayedClue: {fileID: 11400000, guid: 2f665c5a669b57b4a8606211832ea775, type: 2}

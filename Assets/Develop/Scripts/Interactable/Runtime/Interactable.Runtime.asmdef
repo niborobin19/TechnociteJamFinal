@@ -1,3 +1,16 @@
 {
-	"name": "Interactable.Runtime"
+    "name": "Interactable.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b664176d2112740418946395011faf03"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
