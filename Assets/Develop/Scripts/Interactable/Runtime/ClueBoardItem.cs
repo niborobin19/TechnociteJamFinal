@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using Scriptables.Runtime;
 
@@ -17,6 +18,9 @@ namespace Interactable.Runtime
         [Header("References")]
         [SerializeField]
         private SpriteRenderer _sprite;
+
+        [SerializeField]
+        private Transform _pin;
 
         #endregion
 
@@ -44,10 +48,21 @@ namespace Interactable.Runtime
             gameObject.SetActive(_clue.IsDiscovered);
         }
 
+        public Transform GetPin()
+        {
+            return _pin;
+        }
+
+        public ScriptableClue GetClue()
+        {
+            return _clue;
+        }
+
         #endregion
 
 
         #region Private
+
 
         #endregion
     }
