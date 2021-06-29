@@ -10,5 +10,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d9e33c4cc9e56ba469da7dc5e595bd78, type: 3}
-  m_Name: OnSpoonDiscovered
+  m_Name: Lory_OnChanged
   m_EditorClassIdentifier: 
