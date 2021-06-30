@@ -6,7 +6,7 @@ using Game.Runtime;
 
 namespace UI.Runtime
 {
-    public class EndingScreenControler : MonoBehaviour
+    public class DeductionScreenControler : MonoBehaviour
     {
         #region Exposed
         [Header("Datas")]
@@ -34,7 +34,7 @@ namespace UI.Runtime
         private GameObject _returnButton;
 
         [SerializeField]
-        private GameObject _quitButton;
+        private GameObject _nextButton;
 
         #endregion
 
@@ -44,8 +44,8 @@ namespace UI.Runtime
         private void Awake() 
         {
             SaveInitialColors();
+            _alpha = 0.0f;
             UpdateColors();
-            _alpha = 1.0f;
             gameObject.SetActive(false);
         }
 
@@ -54,10 +54,9 @@ namespace UI.Runtime
             UpdateAlphaThenColor();
         }
 
-        private void OnEnable() 
+        private void OnDisable() 
         {
-            _alpha = 1.0f;
-            UpdateColors();  
+            _alpha = 0.0f;    
         }
 
         #endregion
@@ -75,8 +74,8 @@ namespace UI.Runtime
             _initialReturnBackgroundColor = _returnButton.GetComponent<Image>().color;
             _initialReturnTextColor = _returnButton.GetComponentInChildren<Text>().color;
 
-            _initialQuitBackgroundColor = _quitButton.GetComponent<Image>().color;
-            _initialQuitTextColor = _quitButton.GetComponentInChildren<Text>().color;
+            _initialQuitBackgroundColor = _nextButton.GetComponent<Image>().color;
+            _initialQuitTextColor = _nextButton.GetComponentInChildren<Text>().color;
         }
 
         private void UpdateAlphaThenColor()
@@ -128,9 +127,9 @@ namespace UI.Runtime
             _returnButton.GetComponentInChildren<Text>().color = 
                 new Color(_initialReturnTextColor.r, _initialReturnTextColor.g, _initialReturnTextColor.b, _alpha);
 
-            _quitButton.GetComponent<Image>().color =
+            _nextButton.GetComponent<Image>().color =
                 new Color(_initialQuitBackgroundColor.r, _initialQuitBackgroundColor.g, _initialQuitBackgroundColor.b, _alpha);
-            _quitButton.GetComponentInChildren<Text>().color = 
+            _nextButton.GetComponentInChildren<Text>().color = 
                 new Color(_initialQuitTextColor.r, _initialQuitTextColor.g, _initialQuitTextColor.b, _alpha);
         }
 
@@ -138,18 +137,14 @@ namespace UI.Runtime
         {
             gameObject.SetActive(true);
             UpdateDisplay();
-            gameObject.SetActive(false);
+            GameManager.CurrentState = GameManager.GameState.Pause;
             _fadingOut = false;
+            _fadingIn = true;
         }
 
         public void FadeOut()
         {
             _fadingOut = true;
-        }
-
-        public void Reload()
-        {
-            GameManager.Reload();
         }
 
         #endregion
@@ -159,10 +154,8 @@ namespace UI.Runtime
 
         private void UpdateDisplay()
         {
-            _title.text = _chargedSuspect.Suspect.EndingTitle;
-            _story.text = _chargedSuspect.Suspect.EndingStory;
-
-            _returnButton.SetActive(!_chargedSuspect.Suspect.IsCulprit);
+            _title.text = _chargedSuspect.Suspect.DeductionTitle;
+            _story.text = _chargedSuspect.Suspect.DeductionStory;
         }
 
         #endregion

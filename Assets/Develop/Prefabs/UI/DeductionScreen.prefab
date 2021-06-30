@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7405193924000795052}
-  - component: {fileID: 1268131605594664756}
+  - component: {fileID: 743878176341319239}
   - component: {fileID: 9032226882657355972}
   - component: {fileID: 7282526573524833513}
   m_Layer: 5
@@ -38,7 +38,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1268131605594664756
+--- !u!114 &743878176341319239
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,7 +87,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 81
+    m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -172,7 +172,7 @@ GameObject:
   - component: {fileID: 1904775262542510163}
   - component: {fileID: 7353069362823733133}
   m_Layer: 5
-  m_Name: EndButton
+  m_Name: NextButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -280,10 +280,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8637672808150313410}
-        m_TargetAssemblyTypeName: UI.Runtime.EndingScreenControler, UI.Runtime
-        m_MethodName: Reload
-        m_Mode: 1
+      - m_Target: {fileID: 6374319557540855828}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -413,8 +413,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8637672808150313410}
-        m_TargetAssemblyTypeName: UI.Runtime.EndingScreenControler, UI.Runtime
+      - m_Target: {fileID: 6749204802044150424}
+        m_TargetAssemblyTypeName: UI.Runtime.DeductionScreenControler, UI.Runtime
         m_MethodName: FadeOut
         m_Mode: 1
         m_Arguments:
@@ -434,11 +434,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6374319555687812521}
-  - component: {fileID: 3299023705679502187}
+  - component: {fileID: 7822702984571419780}
   - component: {fileID: 6374319555687812523}
   - component: {fileID: 6374319555687812520}
   m_Layer: 5
-  m_Name: EndingTitle
+  m_Name: DeductionTitle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -463,7 +463,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &3299023705679502187
+--- !u!114 &7822702984571419780
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -512,7 +512,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 216
+    m_MaxSize: 44
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -529,11 +529,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6374319556906151512}
-  - component: {fileID: 5171542947946141342}
+  - component: {fileID: 6146159343125893618}
   - component: {fileID: 6374319556906151514}
   - component: {fileID: 6374319556906151515}
   m_Layer: 5
-  m_Name: EndingStory
+  m_Name: DeductionStory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -558,7 +558,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &5171542947946141342
+--- !u!114 &6146159343125893618
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -607,32 +607,16 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 300
+    m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '1
-
-    2
-
-    3
-
-    4
-
-    5
-
-    6
-
-    7
-
-    8
-
-    9
-
-    10'
+  m_Text: "Malgr\xE9 un proc\xE8s o\xF9 l'accus\xE9 \xE0 plaid\xE9 non coupable sans
+    interruption, Robin fut charg\xE9 du meurtre sur base des preuves que vous avez
+    r\xE9unies\n\n"
 --- !u!1 &6374319557540855828
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,12 +626,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6374319557540855831}
-  - component: {fileID: 8637672808150313410}
+  - component: {fileID: 6749204802044150424}
   - component: {fileID: 2911195144374676568}
   - component: {fileID: 6374319557540855825}
   - component: {fileID: 6374319557540855830}
   m_Layer: 5
-  m_Name: EndingScreen
+  m_Name: DeductionScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -675,7 +659,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &8637672808150313410
+--- !u!114 &6749204802044150424
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -684,7 +668,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6374319557540855828}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66c107e65744a5742bf318879106b3d0, type: 3}
+  m_Script: {fileID: 11500000, guid: fb1bd0232e226d245b5c738fb0bdcba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _chargedSuspect: {fileID: 11400000, guid: c0a5f55e0b6b2c942a24a32bd5a68ce4, type: 2}
@@ -694,7 +678,7 @@ MonoBehaviour:
   _title: {fileID: 6374319555687812520}
   _story: {fileID: 6374319556906151515}
   _returnButton: {fileID: 4968386098975804049}
-  _quitButton: {fileID: 2354925856518498804}
+  _nextButton: {fileID: 2354925856518498804}
 --- !u!114 &2911195144374676568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -711,8 +695,8 @@ MonoBehaviour:
   _onEventRaised:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8637672808150313410}
-        m_TargetAssemblyTypeName: UI.Runtime.EndingScreenControler, UI.Runtime
+      - m_Target: {fileID: 6749204802044150424}
+        m_TargetAssemblyTypeName: UI.Runtime.DeductionScreenControler, UI.Runtime
         m_MethodName: ChargedSuspect_OnChanged
         m_Mode: 1
         m_Arguments:
@@ -770,7 +754,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 372049399083162673}
-  - component: {fileID: 65925538553281976}
+  - component: {fileID: 987849839353659516}
   - component: {fileID: 3395141767273981154}
   - component: {fileID: 2523424450941909557}
   m_Layer: 5
@@ -799,7 +783,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &65925538553281976
+--- !u!114 &987849839353659516
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -848,11 +832,11 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 81
+    m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Cloturer l'enqu\xEAte"
+  m_Text: Accuser ce suspect
