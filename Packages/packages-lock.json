@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.transmedia.nullchecker": {
+      "version": "https://github.com/noctisyounis/NullChecker.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "a84f05433d5dcf6b2834bda5197339cf53c56a3d"
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
