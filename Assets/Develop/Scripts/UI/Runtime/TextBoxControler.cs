@@ -55,7 +55,7 @@ namespace UI.Runtime
         {
             if(_fadingIn)
             {
-                var amount = 1 * Time.deltaTime * _fadeInTime;
+                var amount = 1 * Time.deltaTime / _fadeInTime;
                 _alpha += amount;
                 _alpha = Mathf.Clamp(_alpha, 0.0f, 1.0f);
 
@@ -70,7 +70,7 @@ namespace UI.Runtime
             }
             if(_fadingOut)
             {
-                var amount = 1 * Time.deltaTime * _fadeOutTime;
+                var amount = 1 * Time.deltaTime / _fadeOutTime;
                 _alpha -= amount;
                 _alpha = Mathf.Clamp(_alpha, 0.0f, 1.0f);
 
