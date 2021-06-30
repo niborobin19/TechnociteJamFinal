@@ -25,6 +25,12 @@ namespace Scriptables.Runtime
         private bool _isCulprit;
 
         [SerializeField]
+        private string _deductionTitle;
+
+        [SerializeField, TextArea]
+        private string _deductionStory;
+
+        [SerializeField]
         private string _endingTitle;
 
         [SerializeField, TextArea]
@@ -90,6 +96,26 @@ namespace Scriptables.Runtime
             set
             {
                 _isCulprit = value;
+            }
+        }
+
+        public string DeductionTitle
+        {
+            get => _deductionTitle;
+
+            set
+            {
+                _deductionTitle = value;
+            }
+        }
+
+        public string DeductionStory
+        {
+            get => _deductionStory;
+
+            set
+            {
+                _deductionStory = value;
             }
         }
 

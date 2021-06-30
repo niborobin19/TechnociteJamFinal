@@ -44,14 +44,20 @@ namespace UI.Runtime
         private void Awake() 
         {
             SaveInitialColors();
-            _alpha = 0.0f;
             UpdateColors();
+            _alpha = 1.0f;
             gameObject.SetActive(false);
         }
 
         private void Update() 
         {
             UpdateAlphaThenColor();
+        }
+
+        private void OnEnable() 
+        {
+            _alpha = 1.0f;
+            UpdateColors();  
         }
 
         #endregion
@@ -132,9 +138,8 @@ namespace UI.Runtime
         {
             gameObject.SetActive(true);
             UpdateDisplay();
-            GameManager.CurrentState = GameManager.GameState.Pause;
+            gameObject.SetActive(false);
             _fadingOut = false;
-            _fadingIn = true;
         }
 
         public void FadeOut()
