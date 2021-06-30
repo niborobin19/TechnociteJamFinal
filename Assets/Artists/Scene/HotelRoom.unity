@@ -438,6 +438,101 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.074400015, y: 0.520332, z: 10}
   m_Center: {x: -0.0000023841858, y: 0, z: -0.0000009536743}
+--- !u!1 &227417888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 227417889}
+  - component: {fileID: 227417892}
+  - component: {fileID: 227417891}
+  - component: {fileID: 227417890}
+  m_Layer: 3
+  m_Name: Debris (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &227417889
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227417888}
+  m_LocalRotation: {x: -0.0061475635, y: -0.1924065, z: -0.0012053758, w: 0.98129535}
+  m_LocalPosition: {x: 4.46, y: 0.664, z: 6.526}
+  m_LocalScale: {x: 0.41813102, y: 0.41813102, z: 0.41813102}
+  m_Children: []
+  m_Father: {fileID: 1143762048}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -0.718, y: -22.187, z: 0}
+--- !u!65 &227417890
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227417888}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5220421, y: 0.03, z: 1.3845241}
+  m_Center: {x: -0.00033651295, y: -0.000043499283, z: -0.0002999306}
+--- !u!23 &227417891
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227417888}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 89da178192942474cb10e6ba8737a6a7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &227417892
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227417888}
+  m_Mesh: {fileID: -9188728115170210297, guid: c3fab8e8b345e4c4cb977c307785905f, type: 3}
 --- !u!1 &260947984 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 48200970225518786, guid: ff740d0055de93148b69a37c2e7a02f8, type: 3}
@@ -540,6 +635,21 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 959765427598324208, guid: ff740d0055de93148b69a37c2e7a02f8, type: 3}
   m_PrefabInstance: {fileID: 9028751408046841892}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &434844200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434844198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb1db35c55351e44bc583828b931855, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _responseText: "\u201CAie, j\u2019ai trop mal \xE0 la t\xEAte pour lire quoi que
+    ce soit !\""
+  _displayedText: {fileID: 11400000, guid: 7d88231b675135544b8979039ddc12c9, type: 2}
 --- !u!65 &434844202
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -692,6 +802,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3647705808406360683, guid: ff740d0055de93148b69a37c2e7a02f8, type: 3}
   m_PrefabInstance: {fileID: 9028751408046841892}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &586992367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586992365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb1db35c55351e44bc583828b931855, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _responseText: "\"Le temps passe si vite\u2026 allez d\xE9p\xEAchons nous !\""
+  _displayedText: {fileID: 11400000, guid: 7d88231b675135544b8979039ddc12c9, type: 2}
 --- !u!65 &586992369
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -900,7 +1024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _responseText: "Oh non, pas de lumi\xE8re, j'ai un tel mal de t\xEAte\u2026 Je
-    reste dans le noire."
+    reste dans le noir."
   _displayedText: {fileID: 11400000, guid: 7d88231b675135544b8979039ddc12c9, type: 2}
 --- !u!1 &972609396 stripped
 GameObject:
@@ -976,6 +1100,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8079719383942761431, guid: ff740d0055de93148b69a37c2e7a02f8, type: 3}
   m_PrefabInstance: {fileID: 9028751408046841892}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1038787389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038787387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb1db35c55351e44bc583828b931855, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _responseText: 
+  _displayedText: {fileID: 0}
 --- !u!65 &1038787391
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1039,6 +1177,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.79770714, y: 1.009488, z: 0.62517315}
   m_Center: {x: -0.0000052601113, y: 0, z: 0.0037734965}
+--- !u!1 &1097343733 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 705352886700434986, guid: ff740d0055de93148b69a37c2e7a02f8, type: 3}
+  m_PrefabInstance: {fileID: 9028751408046841892}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1097343737
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097343733}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5220421, y: 0.03, z: 1.3845241}
+  m_Center: {x: -0.00033651295, y: -0.000043499283, z: -0.0002999306}
 --- !u!1 &1101052400 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8728645486085696923, guid: ff740d0055de93148b69a37c2e7a02f8, type: 3}
@@ -1069,13 +1225,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bb1db35c55351e44bc583828b931855, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _responseText: "\"Tu veux t\xE9l\xE9phoner \xE0 qui a cette heure-ci\""
+  _responseText: "\"Tu veux t\xE9l\xE9phoner \xE0 qui \xE0 cette heure-ci?\""
   _displayedText: {fileID: 11400000, guid: 7d88231b675135544b8979039ddc12c9, type: 2}
+--- !u!4 &1143762048 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8846803515510880039, guid: ff740d0055de93148b69a37c2e7a02f8, type: 3}
+  m_PrefabInstance: {fileID: 9028751408046841892}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1218690338 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4145800197178925362, guid: ff740d0055de93148b69a37c2e7a02f8, type: 3}
   m_PrefabInstance: {fileID: 9028751408046841892}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1218690339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218690338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb1db35c55351e44bc583828b931855, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _responseText: "\u201CMon royaume pour un Whisky\u201D"
+  _displayedText: {fileID: 11400000, guid: 7d88231b675135544b8979039ddc12c9, type: 2}
 --- !u!65 &1218690342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2069,6 +2244,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 959765427598324208, guid: ff740d0055de93148b69a37c2e7a02f8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1225864897456981266, guid: ff740d0055de93148b69a37c2e7a02f8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2096,6 +2275,22 @@ PrefabInstance:
     - target: {fileID: 2497413429882307725, guid: ff740d0055de93148b69a37c2e7a02f8, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.227
+      objectReference: {fileID: 0}
+    - target: {fileID: 3536411039939325255, guid: ff740d0055de93148b69a37c2e7a02f8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3536411040167949719, guid: ff740d0055de93148b69a37c2e7a02f8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3647705808406360683, guid: ff740d0055de93148b69a37c2e7a02f8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145800197178925362, guid: ff740d0055de93148b69a37c2e7a02f8, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4968404218648670997, guid: ff740d0055de93148b69a37c2e7a02f8, type: 3}
       propertyPath: m_LocalScale.x
@@ -2126,6 +2321,10 @@ PrefabInstance:
       value: HOTELROOM
       objectReference: {fileID: 0}
     - target: {fileID: 8028520932183481020, guid: ff740d0055de93148b69a37c2e7a02f8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8079719383942761431, guid: ff740d0055de93148b69a37c2e7a02f8, type: 3}
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
