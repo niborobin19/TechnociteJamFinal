@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using Scriptables.Runtime;
-using MyCursor.Runtime;
+using Game.Runtime;
 
 namespace UI.Runtime
 {
@@ -10,7 +10,9 @@ namespace UI.Runtime
         #region Exposed
         [Header("Datas")]
         [SerializeField]
-        private SuspectVariable _suspect;
+        private SuspectVariable _selectedSuspect;
+        [SerializeField]
+        private SuspectVariable _chargedSuspect;
 
         [Header("References")]
         [SerializeField]
@@ -31,23 +33,18 @@ namespace UI.Runtime
         #endregion
 
 
-        #region Unity API
-
-        #endregion
-
-
         #region Main
 
         public void Show()
         {
-            CursorManager.ShowCursor();
+            GameManager.CurrentState = GameManager.GameState.Pause;
 
             _content.SetActive(true);
         }
 
         public void Hide()
         {
-            CursorManager.HideCursor();
+            GameManager.CurrentState = GameManager.GameState.Play;
 
             _content.SetActive(false);
         }
@@ -59,12 +56,18 @@ namespace UI.Runtime
             UpdateDisplay();
         }
 
+        public void ChargeButton()
+        {
+            Hide();
+            _chargedSuspect.Suspect = _selectedSuspect.Suspect;
+        }
+
         private void UpdateDisplay()
         {
-            _suspectImage.sprite = _suspect.Suspect.Sprite;
-            _suspectName.text = _suspect.Suspect.Name;
-            _suspectDescription.text = _suspect.Suspect.Description;
-            _chargeButton.interactable = _suspect.Suspect.IsChargeable;
+            _suspectImage.sprite = _selectedSuspect.Suspect.Sprite;
+            _suspectName.text = _selectedSuspect.Suspect.Name;
+            _suspectDescription.text = _selectedSuspect.Suspect.Description;
+            _chargeButton.interactable = _selectedSuspect.Suspect.IsChargeable;
         }
 
         #endregion

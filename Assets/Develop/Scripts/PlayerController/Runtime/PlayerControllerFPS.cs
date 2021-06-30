@@ -1,9 +1,9 @@
 using System;
 using UnityEngine;
-using UnityEditor;
 using Interactable.Runtime;
 using MyCursor.Runtime;
 using Scriptables.Runtime;
+using Game.Runtime;
 
 namespace PlayerController.Runtime
 {
@@ -83,20 +83,21 @@ namespace PlayerController.Runtime
             InteractionRange = _interactionRange;
         }
 
-        private void Awake() 
-        {
-            CursorManager.UpdateCursor();    
-        }
-
         private void Update() 
         {
+            if(GameManager.CurrentState == GameManager.GameState.Pause) return;
+            TryToggleCursor();  
+
+            if(CursorManager.IsVisible) return;
+
             Rotate();
             TryInteract();  
-            TryToggleCursor();  
         }
 
         private void FixedUpdate() 
         {
+            if(GameManager.CurrentState == GameManager.GameState.Pause || CursorManager.IsVisible) return;
+
             ScanInteractable();
             Move();    
         }
@@ -108,8 +109,6 @@ namespace PlayerController.Runtime
 
         private void Move()
         {
-            if(CursorManager.IsVisible) return;
-
             ComputeDirection();
 
             _transform.Translate(_direction * _moveSpeed * Time.fixedDeltaTime, Space.Self);
@@ -117,8 +116,6 @@ namespace PlayerController.Runtime
 
         private void Rotate()
         {
-            if(CursorManager.IsVisible) return;
-
             ComputeRotation();
 
             _transform.Rotate(_bodyRotation * _rotationSpeed);
