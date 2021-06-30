@@ -1,32 +1,26 @@
 using UnityEngine;
 using UnityEngine.UI;
-using Scriptables.Runtime;
+using Game.Runtime;
+using MyCursor.Runtime;
 
 namespace UI.Runtime
 {
-    public class TextBoxControler : MonoBehaviour
+    public class WarpOverlay : MonoBehaviour
     {
         #region Exposed
-        [Header("Datas")]
+        [Header("Variable")]
         [SerializeField]
-        private StringVariable _displayedText;
-
-        [Header("Variables")]
-        [SerializeField]
-        private float _displayTime = 3.0f;
+        private float _fadeInTime;
 
         [SerializeField]
-        private float _fadeInTime = 0.5f;
+        private float _fadeOutTime;
 
         [SerializeField]
-        private float _fadeOutTime = 0.5f;
+        private float _displayTime;
 
         [Header("References")]
         [SerializeField]
-        private Image _background;
-
-        [SerializeField]
-        private Text _text;
+        private Image _image;
 
         #endregion
 
@@ -35,10 +29,10 @@ namespace UI.Runtime
 
         private void Awake() 
         {
-            _initialBackgroundColor = _background.color;
-            _initialTextColor = _text.color;
+            SaveInitialColors();
             _alpha = 0.0f;
             UpdateColors();
+            gameObject.SetActive(false);
         }
 
         private void Update() 
@@ -46,10 +40,20 @@ namespace UI.Runtime
             UpdateAlphaThenColor();
         }
 
+        private void OnDisable() 
+        {
+            _alpha = 0.0f;    
+        }
+
         #endregion
 
 
         #region Main
+
+        private void SaveInitialColors()
+        {
+            _initialColor = _image.color;
+        }
 
         private void UpdateAlphaThenColor()
         {
@@ -77,6 +81,9 @@ namespace UI.Runtime
                 if(Mathf.Approximately(_alpha, 0.0f))
                 {
                     _fadingOut = false;
+                    gameObject.SetActive(false);
+
+                    GameManager.CurrentState = GameManager.GameState.Play;
                 }
 
                 UpdateColors();
@@ -87,20 +94,21 @@ namespace UI.Runtime
 
         private void UpdateColors()
         {
-            _background.color = new Color(_initialBackgroundColor.r, _initialBackgroundColor.g, _initialBackgroundColor.b, _alpha);
-            _text.color = new Color(_initialTextColor.r, _initialTextColor.g, _initialTextColor.b, _alpha);
+            _image.color = new Color(_initialColor.r, _initialColor.g, _initialColor.b, _alpha);
         }
 
-        public void DisplayedText_OnChanged()
+        public void OnWarping()
         {
+            gameObject.SetActive(true);
+            GameManager.CurrentState = GameManager.GameState.Pause;
+            CursorManager.HideCursor();
             _fadingOut = false;
             _fadingIn = true;
-            _text.text = _displayedText.Value;
 
-            Invoke(nameof(DelayedFadeOut), _fadeInTime + _displayTime);
+            Invoke(nameof(FadeOut), _displayTime + _fadeInTime);
         }
 
-        private void DelayedFadeOut()
+        public void FadeOut()
         {
             _fadingOut = true;
         }
@@ -112,9 +120,9 @@ namespace UI.Runtime
 
         private bool _fadingIn;
         private bool _fadingOut;
+
         private float _alpha;
-        private Color _initialBackgroundColor;
-        private Color _initialTextColor;
+        private Color _initialColor;
 
         #endregion
     }

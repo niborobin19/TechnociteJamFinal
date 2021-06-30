@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using Scriptables.Runtime;
-using MyCursor.Runtime;
+using Game.Runtime;
 
 namespace UI.Runtime
 {
@@ -46,14 +46,14 @@ namespace UI.Runtime
 
         public void Show()
         {
-            CursorManager.ShowCursor();
+            GameManager.CurrentState = GameManager.GameState.Pause;
 
             _content.SetActive(true);
         }
 
         public void Hide()
         {
-            CursorManager.HideCursor();
+            GameManager.CurrentState = GameManager.GameState.Play;
 
             _content.SetActive(false);
         }

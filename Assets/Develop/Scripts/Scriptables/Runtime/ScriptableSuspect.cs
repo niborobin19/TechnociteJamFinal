@@ -24,6 +24,15 @@ namespace Scriptables.Runtime
         [SerializeField]
         private bool _isCulprit;
 
+        [SerializeField]
+        private string _deductionTitle;
+
+        [SerializeField, TextArea]
+        private string _deductionStory;
+
+        [SerializeField]
+        private string _endingTitle;
+
         [SerializeField, TextArea]
         private string _endingStory;
 
@@ -90,6 +99,26 @@ namespace Scriptables.Runtime
             }
         }
 
+        public string DeductionTitle
+        {
+            get => _deductionTitle;
+
+            set
+            {
+                _deductionTitle = value;
+            }
+        }
+
+        public string DeductionStory
+        {
+            get => _deductionStory;
+
+            set
+            {
+                _deductionStory = value;
+            }
+        }
+
         public string EndingStory
         {
             get => _endingStory;
@@ -97,6 +126,16 @@ namespace Scriptables.Runtime
             set
             {
                 _endingStory = value;
+            }
+        }
+
+        public string EndingTitle
+        {
+            get => _endingTitle;
+
+            set
+            {
+                _endingTitle = value;
             }
         }
 
@@ -153,6 +192,12 @@ namespace Scriptables.Runtime
             if(!_linkedClues.Contains(clue)) return;
 
             _linkedClues.Remove(clue);
+            _onSuspectChanged.Raise();
+        }
+
+        public void UnlinkAll()
+        {
+            _linkedClues = new List<ScriptableClue>();
             _onSuspectChanged.Raise();
         }
 
