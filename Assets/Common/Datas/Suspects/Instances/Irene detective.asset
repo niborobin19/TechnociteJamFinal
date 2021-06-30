@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: 
   _description: 
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 643b665dd205ee347a30070877762a04, type: 3}
   _displayClueCount: 0
   _isCulprit: 0
+  _deductionTitle: 
+  _deductionStory: 
+  _endingTitle: 
   _endingStory: 
   _relatedClues: []
   _onSuspectChanged: {fileID: 0}
