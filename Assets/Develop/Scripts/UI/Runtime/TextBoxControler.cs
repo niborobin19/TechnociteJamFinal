@@ -93,6 +93,8 @@ namespace UI.Runtime
 
         public void DisplayedText_OnChanged()
         {
+            CancelInvoke(nameof(DelayedFadeOut));
+
             _fadingOut = false;
             _fadingIn = true;
             _text.text = _displayedText.Value;
