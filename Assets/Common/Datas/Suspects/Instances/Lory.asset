@@ -17,6 +17,9 @@ MonoBehaviour:
   _sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   _displayClueCount: 0
   _isCulprit: 0
+  _deductionTitle: Deduction
+  _deductionStory: Pourquoi?
+  _endingTitle: Ou pas coupable
   _endingStory: Lol
   _relatedClues:
   - {fileID: 11400000, guid: 19c11df753592514ab778886f9fbeb44, type: 2}

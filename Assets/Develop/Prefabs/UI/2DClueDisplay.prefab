@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4212131465127283029}
+  - component: {fileID: 3166803191899137513}
   - component: {fileID: 5701791842921066044}
   - component: {fileID: 6705938544812023685}
   m_Layer: 5
@@ -32,11 +33,26 @@ RectTransform:
   m_Father: {fileID: 4667440436811050244}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 1, y: 0.9}
+  m_AnchorMax: {x: 1.1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: 30}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
+--- !u!114 &3166803191899137513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895566071931584110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c7f3d43b65ac61428a68cf206b1f432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _lineCount: 1
+  _fontSizeCorrector: 0.8
+  _target: {fileID: 6705938544812023685}
 --- !u!222 &5701791842921066044
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -66,8 +82,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_Font: {fileID: 12800000, guid: 9d464cb45ada4b447819d668bf6ad5ce, type: 3}
+    m_FontSize: 0
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
@@ -88,6 +104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9142049449944568280}
+  - component: {fileID: 8492870482358357028}
   - component: {fileID: 426982296950304632}
   - component: {fileID: 3227142946288715131}
   m_Layer: 5
@@ -116,6 +133,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8492870482358357028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797487692773558878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c7f3d43b65ac61428a68cf206b1f432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _lineCount: 7
+  _fontSizeCorrector: 0.75
+  _target: {fileID: 3227142946288715131}
 --- !u!222 &426982296950304632
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -145,11 +177,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 2f75bb103bec9714f863f67d97ed1c6b, type: 3}
+    m_FontSize: 0
     m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
+    m_BestFit: 0
+    m_MinSize: 0
     m_MaxSize: 20
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -157,7 +189,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Description
+  m_Text: '1
+
+    2
+
+    3
+
+    4
+
+    5
+
+    6
+
+    7'
 --- !u!1 &2562142925659087218
 GameObject:
   m_ObjectHideFlags: 0
@@ -324,6 +368,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5703855973242268668}
+  - component: {fileID: 6006426298582324181}
   - component: {fileID: 6549977540185605764}
   - component: {fileID: 4240866070092127446}
   m_Layer: 5
@@ -352,6 +397,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6006426298582324181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2961740525047662098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c7f3d43b65ac61428a68cf206b1f432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _lineCount: 1
+  _fontSizeCorrector: 0.6
+  _target: {fileID: 4240866070092127446}
 --- !u!222 &6549977540185605764
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -381,19 +441,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: c0ed903252571204b9f08937d3214bfe, type: 3}
+    m_FontSize: 0
     m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 120
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: Clue Name
 --- !u!1 &5345192010513847928
 GameObject:
   m_ObjectHideFlags: 0

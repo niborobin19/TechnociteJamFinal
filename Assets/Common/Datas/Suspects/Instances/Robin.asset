@@ -17,6 +17,9 @@ MonoBehaviour:
   _sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   _displayClueCount: 1
   _isCulprit: 1
+  _deductionTitle: Deduction
+  _deductionStory: "\xC9l\xE9mentaire"
+  _endingTitle: Vous accusez Robin de meurtre
   _endingStory: "Apr\xE8s tout, Robin est toujours Coupable"
   _relatedClues:
   - {fileID: 11400000, guid: ffa51500736792c44b28f8810fe57ca2, type: 2}
