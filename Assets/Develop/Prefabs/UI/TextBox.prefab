@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7665805275963656905}
   - component: {fileID: 7665805275963656907}
+  - component: {fileID: 3130681913102893960}
   - component: {fileID: 7665805275963656904}
   m_Layer: 5
   m_Name: ResponseText
@@ -45,6 +46,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7665805275963656910}
   m_CullTransparentMesh: 1
+--- !u!114 &3130681913102893960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7665805275963656910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c7f3d43b65ac61428a68cf206b1f432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _lineCount: 3
+  _fontSizeCorrector: 0.8
+  _target: {fileID: 7665805275963656904}
 --- !u!114 &7665805275963656904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67,9 +83,9 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c0ed903252571204b9f08937d3214bfe, type: 3}
-    m_FontSize: 10
+    m_FontSize: 0
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
