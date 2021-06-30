@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e852d00a717c05249b453de1ff2014ec, type: 3}
   m_Name: lettre de menace
   m_EditorClassIdentifier: 
-  _name: 
-  _description: 
+  _name: Lettre de menace
+  _description: "La lettre est r\xE9dig\xE9e par une femme et menace une actrice
+    de talent. La lettre n\u2019est pas sign\xE9e mais je peux reconna\xEEtre un
+    parfum."
   _sprite: {fileID: 0}
-  _onClueChanged: {fileID: 0}
+  _onClueChanged: {fileID: 11400000, guid: 8f91a5ae61b66fb4ea4ab45ec6ecfc12, type: 2}

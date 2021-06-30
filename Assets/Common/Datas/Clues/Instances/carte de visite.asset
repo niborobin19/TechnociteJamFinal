@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e852d00a717c05249b453de1ff2014ec, type: 3}
   m_Name: carte de visite
   m_EditorClassIdentifier: 
-  _name: 
-  _description: 
+  _name: Carte de visite
+  _description: "Je reconnais cette carte de visite c\u2019est celle d\u2019Henri
+    Beauvois! Mais que fait-elle ici? la victime \xE9tait une cliente? ou peut-\xEAtre
+    l\u2019assassin\u2026 C\u2019est vraiment \xE9trange..."
   _sprite: {fileID: 0}
-  _onClueChanged: {fileID: 0}
+  _onClueChanged: {fileID: 11400000, guid: 32373f822b5b1a04688dabb1dee803ba, type: 2}
