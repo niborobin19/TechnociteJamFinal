@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2713c857ed383459642f392fc708df, type: 3}
   m_Name: henry l'armurier
   m_EditorClassIdentifier: 
-  _name: Henri Beauvois
-  _description: "Henri Beauvois est armurier issu d\u2019une famille ais\xE9e, il
+  _name: Henri Baufays
+  _description: "Henri Baufays est armurier issu d\u2019une famille ais\xE9e, il
     aime les beaux objets et a tr\xE8s vite d\xE9velopp\xE9 une fascination pour
     les armes. Son p\xE8re avait une impressionnante collection de revolvers anciens
     (tous certifi\xE9s bien s\xFBr). Sa m\xE8re \xE9tait une catholique tr\xE8s pieuse
@@ -63,5 +63,5 @@ MonoBehaviour:
   _relatedClues:
   - {fileID: 11400000, guid: a6ce1909881cb8c41a94ab1401970052, type: 2}
   - {fileID: 11400000, guid: c1525b70c2f928c428659854d55728ef, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 1fd841ff9b2dd4e42844987fca1c9a48, type: 2}
   _onSuspectChanged: {fileID: 11400000, guid: 9833891079993d0418334d29253a01bd, type: 2}
