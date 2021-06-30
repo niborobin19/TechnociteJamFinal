@@ -52,7 +52,7 @@ namespace Game.Runtime
         public static void Reload()
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            GameManager.CurrentState = GameState.Play;
+            GameManager.CurrentState = GameState.Pause;
             ClueAndSuspectRegistry.ResetAll();
         }
 
@@ -61,7 +61,7 @@ namespace Game.Runtime
 
         #region Private
 
-        private static GameState _currentState = GameState.Play;
+        private static GameState _currentState = GameState.Pause;
 
         #endregion
     }

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Lory
   _description: Artiste
-  _sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  _sprite: {fileID: 21300000, guid: 614fc2e3d0373534a8160de945f45ba4, type: 3}
   _displayClueCount: 0
   _isCulprit: 0
   _deductionTitle: Deduction
