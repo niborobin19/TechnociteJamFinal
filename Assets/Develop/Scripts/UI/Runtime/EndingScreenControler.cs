@@ -154,7 +154,7 @@ namespace UI.Runtime
 
         private void UpdateDisplay()
         {
-            _title.text = $"Vous avez déduit que {_chargedSuspect.Suspect.Name} était le coupable.";
+            _title.text = _chargedSuspect.Suspect.EndingTitle;
             _story.text = _chargedSuspect.Suspect.EndingStory;
 
             _returnButton.SetActive(!_chargedSuspect.Suspect.IsCulprit);
