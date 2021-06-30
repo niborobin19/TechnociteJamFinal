@@ -12,12 +12,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2713c857ed383459642f392fc708df, type: 3}
   m_Name: henry l'armurier
   m_EditorClassIdentifier: 
-  _name: 
-  _description: 
-  _sprite: {fileID: 0}
-  _displayClueCount: 0
+  _name: Henri Beauvois
+  _description: "Henri Beauvois est armurier issu d\u2019une famille ais\xE9e, il
+    aime les beaux objets et a tr\xE8s vite d\xE9velopp\xE9 une fascination pour
+    les armes. Son p\xE8re avait une impressionnante collection de revolvers anciens
+    (tous certifi\xE9s bien s\xFBr). Sa m\xE8re \xE9tait une catholique tr\xE8s pieuse
+    et avait du coup amass\xE9 un nombre colossal de crucifix et de repr\xE9sentations
+    de Marie.\r\nLe Jeune Henri a \xE9t\xE9 inspir\xE9 par ses deux parents et a
+    une passion pour les armes rituelles provenant du monde entier. Certaines de
+    ses armes ont des provenances douteuses\u2026 Et des utilisations tr\xE8s peu
+    recommandables\u2026\r\nIl se targue de proposer une large s\xE9lection d'armes
+    en tout genre et toujours de bonne facture.\r\nj\u2019ai eu recours \xE0 ses
+    services \xE0 de nombreuses reprises\u2026 Pour son expertise dans mes enqu\xEAtes
+    mais \xE9galement comme fournisseur, car ses prix sont imbattables et son armurerie
+    est \xE0 c\xF4t\xE9 de mon bureau...\r\n"
+  _sprite: {fileID: 21300000, guid: f7606dad6090a5248ad9e990d28be2ec, type: 3}
+  _displayClueCount: 2
   _isCulprit: 0
+  _deductionTitle: 
+  _deductionStory: 
+  _endingTitle: 
   _endingStory: 
   _relatedClues:
+  - {fileID: 11400000, guid: a6ce1909881cb8c41a94ab1401970052, type: 2}
+  - {fileID: 11400000, guid: c1525b70c2f928c428659854d55728ef, type: 2}
   - {fileID: 0}
   _onSuspectChanged: {fileID: 11400000, guid: 9833891079993d0418334d29253a01bd, type: 2}
