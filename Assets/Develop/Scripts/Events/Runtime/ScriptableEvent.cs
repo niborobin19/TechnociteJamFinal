@@ -6,11 +6,24 @@ namespace Events.Runtime
     [CreateAssetMenu(menuName ="Datas/Event", fileName ="New event")]
     public class ScriptableEvent : ScriptableObject
     {
-        #region Unity API
+        #region Properties
 
-        private void OnEnable() 
+        private List<EventListener> Listeners
         {
-            _listeners = new List<EventListener>();    
+            get
+            {
+                if(_listeners == null)
+                {
+                    _listeners = new List<EventListener>();
+                }
+
+                return _listeners;
+            }
+
+            set
+            {
+                _listeners = value;
+            }
         }
 
         #endregion
@@ -20,7 +33,7 @@ namespace Events.Runtime
 
         public void Raise()
         {
-            foreach(var listener in _listeners)
+            foreach(var listener in Listeners)
             {
                 listener.EventRaised();
             }
@@ -28,12 +41,12 @@ namespace Events.Runtime
 
         public void Subscribe(EventListener listener)
         {
-            _listeners.Add(listener);
+            Listeners.Add(listener);
         }
 
         public void Unsubscribe(EventListener listener)
         {
-            _listeners.Remove(listener);
+            Listeners.Remove(listener);
         }
 
         #endregion

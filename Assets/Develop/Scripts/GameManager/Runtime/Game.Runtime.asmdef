@@ -1,11 +1,9 @@
 {
-    "name": "UI.Runtime",
+    "name": "Game.Runtime",
     "rootNamespace": "",
     "references": [
-        "GUID:b664176d2112740418946395011faf03",
         "GUID:fe7cfe2def70fea499c6fe820ecd35ef",
-        "GUID:d30ac7f4b4368834f85507b4d7a1667c",
-        "GUID:d2f3b382348a6374a82365b630263868"
+        "GUID:b664176d2112740418946395011faf03"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
