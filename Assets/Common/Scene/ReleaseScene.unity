@@ -138,6 +138,34 @@ PrefabInstance:
       propertyPath: _clicVolumeCoefficient
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 713811465590763421, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.405
+      objectReference: {fileID: 0}
+    - target: {fileID: 713811465590763421, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 713811465590763421, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 713811465590763421, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 713811465590763421, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 713811465590763421, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 713811465590763421, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3697355259216896819, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
       propertyPath: m_RootOrder
       value: 1
