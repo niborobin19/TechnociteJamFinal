@@ -705,6 +705,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5694560196725828390, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5694560196725828390, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5694560196725828390, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6944188375415453640, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_MaxSize
       value: 23
@@ -746,6 +758,10 @@ PrefabInstance:
       propertyPath: _clic
       value: 
       objectReference: {fileID: 8300000, guid: 176e81f15b54ed6409bada83c50bc5fb, type: 3}
+    - target: {fileID: 629494135, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _clicVolumeCoefficient
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1124732744, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responses.Array.data[0]
       value: Jamais sur le lieux de crime... Ou seulement en cas d'urgence !
@@ -794,6 +810,10 @@ PrefabInstance:
       propertyPath: _clic
       value: 
       objectReference: {fileID: 8300000, guid: 176e81f15b54ed6409bada83c50bc5fb, type: 3}
+    - target: {fileID: 1276817672, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _clicVolumeCoefficient
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 45669138772662234, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: m_Size.x
       value: 2.9816928
@@ -955,6 +975,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HOTELROOM (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5907973799443561074, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4426460e3410cd34a8a4b78e52980018, type: 2}
     - target: {fileID: 6440225909306601414, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: m_RootOrder
       value: 7
