@@ -24,7 +24,7 @@ MonoBehaviour:
     un mari, mais il est mort r\xE9cemment, c'est atroce comme il me manque. Je ferais
     tout pour le revoir..."
   _sprite: {fileID: 21300000, guid: 643b665dd205ee347a30070877762a04, type: 3}
-  _displayClueCount: 3
+  _displayClueCount: 10
   _isCulprit: 1
   _deductionTitle: Le whisky me joue des tours
   _deductionStory: "Mon p\xE8re disait toujours, si \xE7a ressemble \xE0 du whisky,
@@ -75,7 +75,16 @@ MonoBehaviour:
   _endingSpeech: {fileID: 8300000, guid: fee8213e0879d2f45b2e3e60738f0c97, type: 3}
   _endingSpeechVolume: 0.5
   _relatedClues:
+  - {fileID: 11400000, guid: b1c189b310aaba9419db6c65b12acfc9, type: 2}
+  - {fileID: 11400000, guid: b747aa1e96afdc046979809e3ae1cb11, type: 2}
   - {fileID: 11400000, guid: e0b189aff760ff14e8a4fbe4c27d0e39, type: 2}
-  - {fileID: 11400000, guid: 2efff712f6cd2774aae056f582b781bf, type: 2}
   - {fileID: 11400000, guid: e6c17657e68ad6f40af2b6304c549581, type: 2}
+  - {fileID: 11400000, guid: a6ce1909881cb8c41a94ab1401970052, type: 2}
+  - {fileID: 11400000, guid: f36da33b79db6544a8d33226beaf29be, type: 2}
+  - {fileID: 11400000, guid: 425125a88090a2c47bb2174565f550aa, type: 2}
+  - {fileID: 11400000, guid: c45ad73d6ee00224abd64242d1b55284, type: 2}
+  - {fileID: 11400000, guid: 1fd841ff9b2dd4e42844987fca1c9a48, type: 2}
+  - {fileID: 11400000, guid: 2efff712f6cd2774aae056f582b781bf, type: 2}
+  - {fileID: 11400000, guid: c1525b70c2f928c428659854d55728ef, type: 2}
+  - {fileID: 11400000, guid: 052c49a235ab4c14b83763c239a2a2cc, type: 2}
   _onSuspectChanged: {fileID: 11400000, guid: 2e795d3a9e4224948bf21581099ddaa0, type: 2}

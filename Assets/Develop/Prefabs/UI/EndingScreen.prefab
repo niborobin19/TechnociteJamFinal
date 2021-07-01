@@ -282,19 +282,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8637672808150313410}
         m_TargetAssemblyTypeName: UI.Runtime.EndingScreenControler, UI.Runtime
-        m_MethodName: Reload
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 8637672808150313410}
-        m_TargetAssemblyTypeName: UI.Runtime.EndingScreenControler, UI.Runtime
-        m_MethodName: StopSpeech
+        m_MethodName: EndInvestigation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -724,6 +712,8 @@ MonoBehaviour:
   _channel: {fileID: 11400000, guid: 01bc0595564670f46a28bfdbf62a29e2, type: 2}
   _fadeInTime: 0.2
   _fadeOutTime: 0.2
+  _culpritEndSound: {fileID: 8300000, guid: b70ec932b3accbf46a663f01c27b04f7, type: 3}
+  _culpritEndVolume: 0.75
   _background: {fileID: 6374319557540855830}
   _title: {fileID: 6374319555687812520}
   _story: {fileID: 6374319556906151515}
