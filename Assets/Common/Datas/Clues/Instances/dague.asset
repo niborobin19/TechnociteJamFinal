@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e852d00a717c05249b453de1ff2014ec, type: 3}
   m_Name: dague
   m_EditorClassIdentifier: 
-  _name: 
-  _description: 
+  _name: Dague rituel
+  _description: "Cette dague est tach\xE9e de sang. Seul un connaisseur sait comment
+    l\u2019utiliser correctement. Elle semble avoir d\xE9j\xE0 \xE9t\xE9 utilis\xE9e
+    dans un rituel..."
   _sprite: {fileID: 0}
-  _onClueChanged: {fileID: 0}
+  _onClueChanged: {fileID: 11400000, guid: 67782d4fa9b23774eb7d6d092d7f1bf4, type: 2}

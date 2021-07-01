@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e852d00a717c05249b453de1ff2014ec, type: 3}
   m_Name: poudre
   m_EditorClassIdentifier: 
-  _name: 
-  _description: 
+  _name: Poudre noire
+  _description: "De la poudre noire\u2026 quelqu\u2019un qui manipule des armes \xE0
+    feu est sans aucun doute pass\xE9 par ici!"
   _sprite: {fileID: 0}
-  _onClueChanged: {fileID: 0}
+  _onClueChanged: {fileID: 11400000, guid: 56c3d0b3982895d479a1c8413a1a1330, type: 2}
