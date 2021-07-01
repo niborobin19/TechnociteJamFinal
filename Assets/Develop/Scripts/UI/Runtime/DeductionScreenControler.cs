@@ -13,6 +13,9 @@ namespace UI.Runtime
         [SerializeField]
         private SuspectVariable _chargedSuspect;
 
+        [SerializeField]
+        private AudioSourceVariable _channel;
+
         [Header("Variables")]
         [SerializeField]
         private float _fadeInTime = 0.5f;
@@ -89,6 +92,7 @@ namespace UI.Runtime
                 if(Mathf.Approximately(_alpha, 1.0f)) 
                 {
                     _fadingIn = false;
+                    BeginSpeech();
                 }
 
                 UpdateColors();
@@ -151,6 +155,19 @@ namespace UI.Runtime
 
 
         #region Utils
+
+        public void BeginSpeech()
+        {
+            _channel.Source.Stop();
+            _channel.Source.clip = _chargedSuspect.Suspect.DeductionSpeech;
+            _channel.Source.volume = _chargedSuspect.Suspect.DeductionSpeechVolume;
+            _channel.Source.Play();
+        }
+
+        public void StopSpeech()
+        {
+            _channel.Source.Stop();
+        }
 
         private void UpdateDisplay()
         {
