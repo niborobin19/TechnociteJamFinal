@@ -41,6 +41,8 @@ MonoBehaviour:
     j\u2019ai tellement mal \xE0 la t\xEAte\u2026 je ne comprends plus rien\u2026
     j\u2019ai l\u2019impression de devenir folle\u2026 je dois retourner sur le lieu
     du crime j\u2019ai du manquer un indice. j\u2019ai tellement mal\u2026"
+  _deductionSpeech: {fileID: 8300000, guid: fee8213e0879d2f45b2e3e60738f0c97, type: 3}
+  _deductionSpeechVolume: 0.5
   _endingTitle: Je retourne chercher de nouveaux indice
   _endingStory: "Je me souviens de cette chambre\u2026 Cette luxueuse suite est celle
     o\xF9 mon mari et moi nous retrouvions\u2026 Pourquoi ne l'ai-je pas reconnue
@@ -70,6 +72,8 @@ MonoBehaviour:
     Suis-je la victime? ou bien le meurtrier? \xC7a n'a plus d\u2019importance, j\u2019ai
     trop mal \xE0 la t\xEAte\u2026 je n\u2019en supporterais plus davantage\u2026
     Adieu, retrouvons-nous mon bien aim\xE9\u2026\r"
+  _endingSpeech: {fileID: 8300000, guid: fee8213e0879d2f45b2e3e60738f0c97, type: 3}
+  _endingSpeechVolume: 0.5
   _relatedClues:
   - {fileID: 11400000, guid: e0b189aff760ff14e8a4fbe4c27d0e39, type: 2}
   - {fileID: 11400000, guid: 2efff712f6cd2774aae056f582b781bf, type: 2}

@@ -96,7 +96,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85a3d07e3f7422646a2f607ac5517f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _channel: {fileID: 11400000, guid: 6f20f7e9a22849241bcd14f1fcd0de0d, type: 2}
   _warpDelay: 1
+  _warpSound: {fileID: 8300000, guid: 795381df6ade13643a2ecaa57f6182f7, type: 3}
+  _warpSoundVolumeCoefficient: 1
   _destination: {fileID: 5771858663754203979}
   _onWarping: {fileID: 11400000, guid: 0dc25ce65a597f14c8bf0c4a27e9b17e, type: 2}
 --- !u!65 &5465849849778357051

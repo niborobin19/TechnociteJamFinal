@@ -1,5 +1,6 @@
 using UnityEngine;
 using Events.Runtime;
+using Scriptables.Runtime;
 
 namespace Interactable.Runtime
 {
@@ -7,9 +8,19 @@ namespace Interactable.Runtime
     {
         #region Exposed
 
+        [Header("Datas")]
+        [SerializeField]
+        private AudioSourceVariable _channel;
+
         [Header("Variables")]
         [SerializeField]
         private float _warpDelay;
+
+        [SerializeField]
+        private AudioClip _warpSound;
+        
+        [SerializeField]
+        private float _warpSoundVolumeCoefficient = 1.0f;
 
         [Header("References")]
         [SerializeField]
@@ -27,6 +38,7 @@ namespace Interactable.Runtime
         public void Interacted(Object source)
         {
             _target = ((MonoBehaviour)source).gameObject.transform;
+            _channel.Source.PlayOneShot(_warpSound, _warpSoundVolumeCoefficient);
             _onWarping.Raise();
 
             Invoke(nameof(Warp), _warpDelay); 
