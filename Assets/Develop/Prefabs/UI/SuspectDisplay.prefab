@@ -634,8 +634,8 @@ RectTransform:
   m_Father: {fileID: 3751502950278269999}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.1, y: 0.5}
-  m_AnchorMax: {x: 0.9, y: 0.85}
+  m_AnchorMin: {x: 0.05, y: 0.65}
+  m_AnchorMax: {x: 0.45338753, y: 0.98}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -710,8 +710,8 @@ RectTransform:
   m_Father: {fileID: 3751502950278269999}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.1, y: 0.85}
-  m_AnchorMax: {x: 0.9, y: 0.95}
+  m_AnchorMin: {x: 0.5, y: 0.65}
+  m_AnchorMax: {x: 0.95, y: 0.8}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -727,7 +727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c7f3d43b65ac61428a68cf206b1f432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _lineCount: 1
+  _lineCount: 2
   _fontSizeCorrector: 0.5
   _target: {fileID: 5624016747349229053}
 --- !u!222 &3328196997236451247
@@ -805,10 +805,10 @@ RectTransform:
   m_Father: {fileID: 3751502950278269999}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.1, y: 0.1}
-  m_AnchorMax: {x: 0.9, y: 0.475}
+  m_AnchorMin: {x: 0.05, y: 0.1}
+  m_AnchorMax: {x: 0.95, y: 0.625}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0.0000021457672}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5334824058943236681
 MonoBehaviour:
@@ -822,7 +822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c7f3d43b65ac61428a68cf206b1f432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _lineCount: 15
+  _lineCount: 20
   _fontSizeCorrector: 0.75
   _target: {fileID: 6349808563106505808}
 --- !u!222 &8159082665133887059
@@ -866,45 +866,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '1
-
-    2
-
-    3
-
-    4
-
-    5
-
-    6
-
-    7
-
-    8
-
-    9
-
-    10
-
-    11
-
-    12
-
-    13
-
-    14
-
-    15
-
-    16
-
-    17
-
-    18
-
-    19
-
-    20'
+  m_Text: "Henri Baufays est armurier issu d\u2019une famille ais\xE9e, il aime les
+    beaux objets et a tr\xE8s vite d\xE9velopp\xE9 une fascination pour les armes.
+    Son p\xE8re avait une impressionnante collection de revolvers anciens (tous certifi\xE9s
+    bien s\xFBr). Sa m\xE8re \xE9tait une catholique tr\xE8s pieuse et avait du coup
+    amass\xE9 un nombre colossal de crucifix et de repr\xE9sentations de Marie.\r\n\nLe
+    Jeune Henri a \xE9t\xE9 inspir\xE9 par ses deux parents et a une passion pour
+    les armes rituelles provenant du monde entier. Certaines de ses armes ont des
+    provenances douteuses\u2026 Et des utilisations tr\xE8s peu recommandables\u2026\r\n\nIl
+    se targue de proposer une large s\xE9lection d'armes en tout genre et toujours
+    de bonne facture.\r\n\nj\u2019ai eu recours \xE0 ses services \xE0 de nombreuses
+    reprises\u2026 Pour son expertise dans mes enqu\xEAtes mais \xE9galement comme
+    fournisseur, car ses prix sont imbattables et son armurerie est \xE0 c\xF4t\xE9
+    de mon bureau... \r\n"
 --- !u!1 &8699723918214143813
 GameObject:
   m_ObjectHideFlags: 0
