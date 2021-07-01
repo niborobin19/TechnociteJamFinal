@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e852d00a717c05249b453de1ff2014ec, type: 3}
   m_Name: anti depresseur
   m_EditorClassIdentifier: 
-  _name: 
-  _description: 
+  _name: "boite antid\xE9presseur"
+  _description: "J'aurais du mal \xE0 ne pas reconna\xEEtre mes fid\xE8les amis\u2026
+    je les ai rencontr\xE9s apr\xE8s la mort de mon mari. C'est Maryl\xE8ne qui me
+    les a conseill\xE9s. "
   _sprite: {fileID: 0}
-  _onClueChanged: {fileID: 0}
+  _onClueChanged: {fileID: 11400000, guid: d9d8eb3eb026f8d4693b5139e99dc5f7, type: 2}
