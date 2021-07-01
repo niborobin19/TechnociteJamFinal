@@ -79,6 +79,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _suspect: {fileID: 11400000, guid: a9c18e4c9e951eb42b012c37b409e750, type: 2}
   _displayedSuspect: {fileID: 11400000, guid: 595a81eefed35f342bf2dac96e4b9857, type: 2}
+  _channel: {fileID: 11400000, guid: 1da2570d0bc708843a6c39f9c239369d, type: 2}
+  _interactionSound: {fileID: 8300000, guid: b72ca87e3f1ab4145b2fcab35ead6406, type: 3}
+  _interactionVolume: 1
   _sprite: {fileID: 347102775758955246}
   _pin: {fileID: 9151687612148109918}
 --- !u!65 &7571630416795973287

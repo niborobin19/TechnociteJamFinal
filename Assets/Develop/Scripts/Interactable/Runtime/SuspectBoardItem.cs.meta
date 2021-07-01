@@ -3,7 +3,13 @@ guid: a1c400b6841b0db4aa4fabc2a8ba3d80
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - _suspect: {instanceID: 0}
+  - _displayedSuspect: {fileID: 11400000, guid: 595a81eefed35f342bf2dac96e4b9857, type: 2}
+  - _channel: {fileID: 11400000, guid: 1da2570d0bc708843a6c39f9c239369d, type: 2}
+  - _interactionSound: {fileID: 8300000, guid: b72ca87e3f1ab4145b2fcab35ead6406, type: 3}
+  - _sprite: {instanceID: 0}
+  - _pin: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
