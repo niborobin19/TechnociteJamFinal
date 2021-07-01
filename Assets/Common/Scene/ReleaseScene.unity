@@ -131,6 +131,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 462969480124562802, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: _clic
+      value: 
+      objectReference: {fileID: 8300000, guid: 176e81f15b54ed6409bada83c50bc5fb, type: 3}
+    - target: {fileID: 462969480124562802, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
       propertyPath: _clicVolumeCoefficient
       value: 0.5
       objectReference: {fileID: 0}
@@ -710,6 +714,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 629494135, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _clic
+      value: 
+      objectReference: {fileID: 8300000, guid: 176e81f15b54ed6409bada83c50bc5fb, type: 3}
+    - target: {fileID: 1124732744, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responses.Array.data[0]
+      value: Jamais sur le lieux de crime... Ou seulement en cas d'urgence !
+      objectReference: {fileID: 0}
+    - target: {fileID: 1124732744, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1124732744, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1124732744, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8994037f4c4ea00409d53f91ad33b918, type: 3}
     - target: {fileID: 1124732744, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseSpeeches.Array.data[0]
       value: 
@@ -738,6 +762,10 @@ PrefabInstance:
       propertyPath: _responseSoundVolumeCoefficients.Array.data[2]
       value: 0.25
       objectReference: {fileID: 0}
+    - target: {fileID: 1276817672, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _clic
+      value: 
+      objectReference: {fileID: 8300000, guid: 176e81f15b54ed6409bada83c50bc5fb, type: 3}
     - target: {fileID: 45669138772662234, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: m_Size.x
       value: 2.9816928
@@ -1279,6 +1307,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 629494135, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _clicVolumeCoefficient
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1124732744, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseSpeeches.Array.data[0]
       value: 
@@ -1418,7 +1450,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3250072788891722665, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: m_Volume
-      value: 0.3
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 3250072788892980956, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseVolume
@@ -1435,6 +1467,22 @@ PrefabInstance:
     - target: {fileID: 3250072789161922456, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseVolume
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072789161922459, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.13897747
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072789161922459, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_Center.x
+      value: -0.0003365278
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072789161922459, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_Center.y
+      value: 0.054445237
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072789161922459, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_Center.z
+      value: -0.00029993054
       objectReference: {fileID: 0}
     - target: {fileID: 3250072789173949591, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseAudio
