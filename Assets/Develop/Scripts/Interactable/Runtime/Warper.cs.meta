@@ -3,7 +3,11 @@ guid: 85a3d07e3f7422646a2f607ac5517f68
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - _channel: {fileID: 11400000, guid: 1da2570d0bc708843a6c39f9c239369d, type: 2}
+  - _warpSound: {fileID: 8300000, guid: 795381df6ade13643a2ecaa57f6182f7, type: 3}
+  - _destination: {instanceID: 0}
+  - _onWarping: {fileID: 11400000, guid: 0dc25ce65a597f14c8bf0c4a27e9b17e, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

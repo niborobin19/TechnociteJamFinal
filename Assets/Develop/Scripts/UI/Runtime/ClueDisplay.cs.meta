@@ -3,7 +3,15 @@ guid: a363dd52175dc3f49968e1dafa0a68b6
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - _clue: {fileID: 11400000, guid: 2f665c5a669b57b4a8606211832ea775, type: 2}
+  - _registy: {fileID: 11400000, guid: fa24b311b9215834bb9301d435b62ee8, type: 2}
+  - _suspectButtonPrefab: {instanceID: 0}
+  - _content: {instanceID: 0}
+  - _clueImage: {instanceID: 0}
+  - _clueName: {instanceID: 0}
+  - _clueDescription: {instanceID: 0}
+  - _suspectLinksRoot: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

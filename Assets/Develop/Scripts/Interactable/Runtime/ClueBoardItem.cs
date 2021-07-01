@@ -15,6 +15,16 @@ namespace Interactable.Runtime
         [SerializeField]
         private ClueVariable _displayedClue;
 
+        [SerializeField]
+        private AudioSourceVariable _channel;
+
+        [Header("Variables")]
+        [SerializeField]
+        private AudioClip _interactionSound;
+
+        [SerializeField]
+        private float _interactionVolumeCoefficient = 1.0f;
+
         [Header("References")]
         [SerializeField]
         private SpriteRenderer _sprite;
@@ -40,6 +50,7 @@ namespace Interactable.Runtime
         public void Interacted(Object source)
         {
             _displayedClue.Clue = _clue;
+            _channel.Source.PlayOneShot(_interactionSound, _interactionVolumeCoefficient);
         }
 
         public void UpdateDisplay()

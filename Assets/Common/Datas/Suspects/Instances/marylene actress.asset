@@ -50,6 +50,8 @@ MonoBehaviour:
     potentielle, je n\u2019arrive pas \xE0 me souvenir pr\xE9cis\xE9ment\u2026 Mais
     c\u2019\xE9tait une actrice un peu plus jeune, qui avait le vent en poupe et,
     qui surtout, \xE9tait parvenue \xE0 attirer sur elle le feu des projecteurs.\r"
+  _deductionSpeech: {fileID: 8300000, guid: fee8213e0879d2f45b2e3e60738f0c97, type: 3}
+  _deductionSpeechVolume: 0.5
   _endingTitle: Confrontation amicale
   _endingStory: "Maryl\xE8ne se d\xE9fend elle dit n'avoir jamais mis les pieds dans
     cet h\xF4tel, car c'est au num\xE9ro 13. Elle est superstitieuse comme beaucoup
@@ -64,6 +66,8 @@ MonoBehaviour:
     ne m'en veut m\xEAme pas\u2026 elle trouve \xE7a dr\xF4le et burlesque\u2026
     Elle sait que \xE7a ne va pas fort pour moi\u2026 Mon deuil sauve mon amiti\xE9\u2026
     mais ne m'aide pas \xE0 r\xE9soudre cette foutue affaire, je retourne enqu\xEAter.\r"
+  _endingSpeech: {fileID: 8300000, guid: fee8213e0879d2f45b2e3e60738f0c97, type: 3}
+  _endingSpeechVolume: 0.5
   _relatedClues:
   - {fileID: 11400000, guid: 425125a88090a2c47bb2174565f550aa, type: 2}
   - {fileID: 11400000, guid: c45ad73d6ee00224abd64242d1b55284, type: 2}
