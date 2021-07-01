@@ -7,9 +7,19 @@ namespace Interactable.Runtime
     {
         #region Exposed
 
+        [Header("Datas")]
+        [SerializeField]
+        private AudioSourceVariable _channel;
+
         [Header("Variables")]
         [SerializeField, TextArea]
         private string _responseText;
+
+        [SerializeField]
+        private AudioClip _responseAudio;
+        
+        [SerializeField]
+        private float _responseVolume = 1.0f;
 
         [Header("Datas")]
         [SerializeField]
@@ -27,6 +37,11 @@ namespace Interactable.Runtime
         public void Interacted(Object source)
         {
             _displayedText.Value = _responseText;
+
+            _channel.Source.Stop();
+            _channel.Source.clip = _responseAudio;
+            _channel.Source.volume = _responseVolume;
+            _channel.Source.Play();
         }
 
         #endregion

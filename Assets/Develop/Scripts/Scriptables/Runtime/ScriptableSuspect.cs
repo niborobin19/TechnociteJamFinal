@@ -31,10 +31,22 @@ namespace Scriptables.Runtime
         private string _deductionStory;
 
         [SerializeField]
+        private AudioClip _deductionSpeech;
+
+        [SerializeField]
+        private float _deductionSpeechVolume = 1.0f;
+
+        [SerializeField]
         private string _endingTitle;
 
         [SerializeField, TextArea]
         private string _endingStory;
+
+        [SerializeField]
+        private AudioClip _endingSpeech;
+
+        [SerializeField]
+        private float _endingSpeechVolume = 1.0f;
 
         [Header("Datas")]
         [SerializeField]
@@ -119,6 +131,26 @@ namespace Scriptables.Runtime
             }
         }
 
+        public AudioClip DeductionSpeech
+        {
+            get => _deductionSpeech;
+
+            set
+            {
+                _deductionSpeech = value;
+            }
+        }
+
+        public float DeductionSpeechVolume
+        {
+            get => _deductionSpeechVolume;
+
+            set
+            {
+                _deductionSpeechVolume = value;
+            }
+        }
+
         public string EndingStory
         {
             get => _endingStory;
@@ -136,6 +168,26 @@ namespace Scriptables.Runtime
             set
             {
                 _endingTitle = value;
+            }
+        }
+
+        public AudioClip EndingSpeech
+        {
+            get => _endingSpeech;
+
+            set
+            {
+                _endingSpeech = value;
+            }
+        }
+
+        public float EndingSpeechVolume
+        {
+            get => _endingSpeechVolume;
+
+            set
+            {
+                _endingSpeechVolume = value;
             }
         }
 

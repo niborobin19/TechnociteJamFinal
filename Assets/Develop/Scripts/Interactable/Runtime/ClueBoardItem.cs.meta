@@ -3,7 +3,13 @@ guid: 83f912dbde4545043b3fe7db6f67e984
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - _clue: {instanceID: 0}
+  - _displayedClue: {fileID: 11400000, guid: 2f665c5a669b57b4a8606211832ea775, type: 2}
+  - _channel: {fileID: 11400000, guid: 1da2570d0bc708843a6c39f9c239369d, type: 2}
+  - _interactionSound: {fileID: 8300000, guid: d1d7b63215f05ad46baf3e871d7ee503, type: 3}
+  - _sprite: {instanceID: 0}
+  - _pin: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
