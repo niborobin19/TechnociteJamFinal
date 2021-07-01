@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e852d00a717c05249b453de1ff2014ec, type: 3}
   m_Name: "m\xE8che de cheveux"
   m_EditorClassIdentifier: 
-  _name: 
-  _description: 
+  _name: "m\xE8che de cheveux"
+  _description: "c'est un accessoire ou de vrais cheveux ? Difficile de le dire,
+    il me faudrait l'avis d'un.e expert.e.Ce genre de choses peut \xEAtre utilis\xE9
+    pour des rituels, il me semble que je l'avais lu quelque part\u2026 Ce qui est
+    s\xFBr c'est que la victime ou le tueur aurait pu \xEAtre mon type d'homme, cette
+    couleur me fait craquer\u2026 Mais pourquoi je parle de \xE7a, je divague\u2026"
   _sprite: {fileID: 0}
-  _onClueChanged: {fileID: 0}
+  _onClueChanged: {fileID: 11400000, guid: 8e5ed9f7d37105b45a7e199a0cb71f63, type: 2}

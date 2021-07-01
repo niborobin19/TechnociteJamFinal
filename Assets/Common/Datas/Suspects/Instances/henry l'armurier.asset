@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2713c857ed383459642f392fc708df, type: 3}
   m_Name: henry l'armurier
   m_EditorClassIdentifier: 
-  _name: Henri Beauvois
-  _description: "Henri Beauvois est armurier issu d\u2019une famille ais\xE9e, il
+  _name: Henri Baufays
+  _description: "Henri Baufays est armurier issu d\u2019une famille ais\xE9e, il
     aime les beaux objets et a tr\xE8s vite d\xE9velopp\xE9 une fascination pour
     les armes. Son p\xE8re avait une impressionnante collection de revolvers anciens
     (tous certifi\xE9s bien s\xFBr). Sa m\xE8re \xE9tait une catholique tr\xE8s pieuse
@@ -25,16 +25,43 @@ MonoBehaviour:
     en tout genre et toujours de bonne facture.\r\nj\u2019ai eu recours \xE0 ses
     services \xE0 de nombreuses reprises\u2026 Pour son expertise dans mes enqu\xEAtes
     mais \xE9galement comme fournisseur, car ses prix sont imbattables et son armurerie
-    est \xE0 c\xF4t\xE9 de mon bureau...\r\n"
+    est \xE0 c\xF4t\xE9 de mon bureau...\r"
   _sprite: {fileID: 21300000, guid: f7606dad6090a5248ad9e990d28be2ec, type: 3}
   _displayClueCount: 2
   _isCulprit: 0
-  _deductionTitle: 
-  _deductionStory: 
-  _endingTitle: 
-  _endingStory: 
+  _deductionTitle: "D\xE9duction"
+  _deductionStory: "Tout concorde, c'est lui le tueur. Son mobile est \xE0 la fois
+    simple et vieux comme le monde, la convoitise\u2026 Je sais qu\u2019il collectionne
+    ce genre d'objets m\xEAme s\u2019il n\u2019y conna\xEEt pas grand-chose en pratique
+    \xE9sot\xE9rique. Il voulait l\u2019arme rituel! mais la vendeuse a d\xFB refuser
+    ou bien demander un prix exorbitant. Du coup le c\xF4t\xE9 obsessionnel d\u2019Henri
+    \xE0 pris le dessus et il l\u2019a abattue!\r\nCependant pris de panique, je
+    pense qu\u2019il a voulu maquiller la sc\xE8ne pour faire croire \xE0 un obscur
+    rituel qui a mal tourn\xE9. Cependant j\u2019ai \xE9tudi\xE9 un peu les sciences
+    occultes r\xE9cemment, je ne me souviens plus trop pourquoi... Mais des \xE9l\xE9ments
+    ne collent pas, c\u2019est trop brouillons pour un initi\xE9, il y a des erreurs
+    qui pourraient \xEAtre dangereuses dans ce type de rite Cthulhien. \r\nComment
+    ses lunettes sont arriv\xE9es l\xE0? Henri m\u2019a racont\xE9 qu\u2019il les
+    avait perdues ou qu\u2019on lui avait vol\xE9 il y a quelque semaines de cela\u2026
+    C\u2019est vrai que je me souviens qu\u2019il m\u2019avait demand\xE9 de cuisiner
+    mes indics mais je ne me souviens plus trop, j\u2019ai vraiment trop abus\xE9
+    de Whisky ma m\xE9moire est assez trouble\u2026 \xC7a n'a sans doute rien donn\xE9
+    sinon je les lui aurais rendues! Mais je pense surtout qu\u2019il ne les a jamais
+    perdues et voulait faire jouer l\u2019assurance! Il m\u2019a dit que les affaires
+    n\u2019\xE9taient pas florissantes ces derniers temps...\r\nEt pour finir sa
+    carte de visite\u2026 Aucun doute ne peut persister, c\u2019est lui!\r"
+  _endingTitle: Confrontation
+  _endingStory: "Henri s'\xE9vertue \xE0 clamer son innocence\u2026 Son avocat lui
+    a trouv\xE9 un t\xE9moin, le gardien du cimeti\xE8re! Rien que \xE7a! Il l\u2019aurait
+    aper\xE7u en train de se recueillir sur le caveau familial. Moi je pense qu\u2019Henri
+    l\u2019a pay\xE9 pour son t\xE9moignage!\r\nBon, l\u2019avocat vient avec d'autres
+    t\xE9moignages: la fleuriste qui lui a vendu des fleurs pour le caveau de ses
+    parents, le pr\xEAtre dit lui avoir parl\xE9 de la collection de sa m\xE8re,
+    et m\xEAme l\u2019apothicaire\u2026\r\nMe serais-je tromp\xE9e? Je retourne au
+    bureau pour \xE9tudier l\u2019affaire et sur le lieu du crime pour trouver d'autres
+    indices.\r"
   _relatedClues:
   - {fileID: 11400000, guid: a6ce1909881cb8c41a94ab1401970052, type: 2}
   - {fileID: 11400000, guid: c1525b70c2f928c428659854d55728ef, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 1fd841ff9b2dd4e42844987fca1c9a48, type: 2}
   _onSuspectChanged: {fileID: 11400000, guid: 9833891079993d0418334d29253a01bd, type: 2}

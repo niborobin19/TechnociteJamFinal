@@ -12,14 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2713c857ed383459642f392fc708df, type: 3}
   m_Name: howar pretre
   m_EditorClassIdentifier: 
-  _name: 
-  _description: 
+  _name: Howard Philips
+  _description: "Membre d\u2019une secte vouant un culte \xE0 Cthulhu, Howard Phillips
+    tente par des moyens mystiques, d\u2019amener son dieu dans le monde des hommes
+    pour qu\u2019il y r\xE8gne en ma\xEEtre. Il n\u2019est pas un grand officier
+    du culte de Cthulhu mais il est respect\xE9 de ses pairs.\r\nJ\u2019ai eu affaire
+    \xE0 lui \xE0 plusieurs reprises. Disons que des adeptes de Cthulhu ont tremp\xE9s
+    dans des enqu\xEAtes tr\xE8s louches\u2026 \xC0 la limite du l\xE9gal, sans jamais
+    d\xE9passer la fronti\xE8re\u2026 Heureusement pour eux sinon je les aurais boucl\xE9s.
+    Howard n\u2019est pas issu d\u2019une famille ais\xE9e mais il est tout de m\xEAme
+    tr\xE8s instruit. Sa connaissance m\u2019a \xE9t\xE9 tr\xE8s salutaire quand
+    je me suis int\xE9ress\xE9e au rite chtulien, je ne me souviens plus trop pourquoi
+    d\u2019ailleurs\u2026 Sans doute pour une enqu\xEAte.\r"
   _sprite: {fileID: 21300000, guid: c246ce61fd4cafa44974c67ae76c1dfa, type: 3}
-  _displayClueCount: 0
+  _displayClueCount: 1
   _isCulprit: 0
-  _deductionTitle: 
-  _deductionStory: 
-  _endingTitle: 
-  _endingStory: 
-  _relatedClues: []
-  _onSuspectChanged: {fileID: 0}
+  _deductionTitle: "D\xE9duction"
+  _deductionStory: "Je le sens, des forces sup\xE9rieurs semblent \xEAtre en mouvement
+    dans cette affaire et pas n\u2019importe lesquelles\u2026 Cthulhu a \xE9t\xE9
+    invoqu\xE9 en ces lieux. La victime \xE9tait peut \xEAtre une offrande pour le
+    dieu. je crois que ca y est, un des adeptes de cette secte a enfin d\xE9pass\xE9
+    les limites! c\u2019est peut \xEAtre m\xEAme toute la secte qui est impliqu\xE9e,
+    je vais mettre la pression \xE0 son membre le plus \xE9minent et \xE9couter Howard
+    Phillips.\r\nCependant, le rituel me semble un peu b\xE2cl\xE9 pour quelqu\u2019un
+    de son rang\u2026 il a d\xFB \xEAtre press\xE9 ou peut \xEAtre \xE9tait t\u2019il
+    trop nerveux par son premier meurtre! \r"
+  _endingTitle: Confrontation
+  _endingStory: "Howard se cache derri\xE8re les erreurs du rituel me disant que
+    seul un d\xE9butant ou quelqu\u2019un de d\xE9sesp\xE9r\xE9 pouvait avoir recours
+    \xE0 ce genre de pratique. Qu\u2019il avait m\xEAme interdit \xE0 ses fr\xE8res
+    Chtulhuiens de commettre de telles ignominies\u2026 Toutes ses j\xE9r\xE9miades
+    ont amplifi\xE9 mon mal de cr\xE2ne\u2026 Les coupables sont tous pareils, ils
+    clament toujours leur innocence\u2026\r\nSon avocat, \xE0 des t\xE9moignages
+    de certains de ses pairs\u2026 Ils ne font s\xFBrement que le couvrir... Par
+    contre, je ne m\u2019attendais pas au t\xE9moignage du Docteur Lavandier! Il
+    pr\xE9tend qu\u2019Howard ne pourrait pas manipuler une arme avec son arthrite\u2026
+    Me serais-je tromp\xE9e? Je veux en avoir le c\u0153ur net et \xE0 contre-c\u0153ur
+    je me remet \xE0 la recherche de nouvelles pistes, mais d\u2019abord un petit
+    verre de Whisky. \r"
+  _relatedClues:
+  - {fileID: 11400000, guid: b1c189b310aaba9419db6c65b12acfc9, type: 2}
+  - {fileID: 11400000, guid: f36da33b79db6544a8d33226beaf29be, type: 2}
+  - {fileID: 11400000, guid: 052c49a235ab4c14b83763c239a2a2cc, type: 2}
+  _onSuspectChanged: {fileID: 11400000, guid: 537d2b2d6d1a33e42a055c2b6de9d256, type: 2}

@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e852d00a717c05249b453de1ff2014ec, type: 3}
   m_Name: amulette
   m_EditorClassIdentifier: 
-  _name: 
-  _description: 
+  _name: Amulette
+  _description: "Je reconnais ce symbole, empreint d\u2019une magie interdite et
+    dangereuse\u2026 Rien que de le voir j\u2019attrape mal \xE0 la t\xEAte\u2026
+    Je pense qu\u2019Howard m\u2019en avait parl\xE9..."
   _sprite: {fileID: 0}
-  _onClueChanged: {fileID: 0}
+  _onClueChanged: {fileID: 11400000, guid: 89633c0cd81e59049bed447bd9756314, type: 2}

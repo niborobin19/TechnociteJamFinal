@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e852d00a717c05249b453de1ff2014ec, type: 3}
   m_Name: faux revolver
   m_EditorClassIdentifier: 
-  _name: 
-  _description: 
+  _name: Faux Revolver
+  _description: "C\u2019est clairement un faux je l\u2019ai reconnu au premier coup
+    d'\u0153il. Mais que fait un faux ici? on dirait un accessoire de sc\xE8ne\u2026
+    Maryl\xE8ne m\u2019a dit en chercher un, il me semble..."
   _sprite: {fileID: 0}
-  _onClueChanged: {fileID: 0}
+  _onClueChanged: {fileID: 11400000, guid: 5ce1474810cc325429401141596de991, type: 2}

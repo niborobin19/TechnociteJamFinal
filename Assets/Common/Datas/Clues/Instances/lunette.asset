@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e852d00a717c05249b453de1ff2014ec, type: 3}
   m_Name: lunette
   m_EditorClassIdentifier: 
-  _name: 
-  _description: 
+  _name: Lunettes
+  _description: "Ces lunettes me semblent famili\xE8res. O\xF9 les ai-je d\xE9j\xE0
+    vues? Ce qui est s\xFBr c\u2019est qu'elles sont trop luxueuses pour appartenir
+    \xE0 la victime vu le lieu, elles valent au moins trois mois de salaire! "
   _sprite: {fileID: 0}
-  _onClueChanged: {fileID: 0}
+  _onClueChanged: {fileID: 11400000, guid: a5c766cb3d2579b49af0a7f7849f9ea0, type: 2}
