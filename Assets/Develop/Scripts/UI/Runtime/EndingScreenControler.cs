@@ -23,6 +23,12 @@ namespace UI.Runtime
         [SerializeField]
         private float _fadeOutTime = 0.5f;
 
+        [SerializeField]
+        private AudioClip _culpritEndSound;
+
+        [SerializeField]
+        private float _culpritEndVolume;
+
         [Header("References")]
         [SerializeField]
         private Image _background;
@@ -171,6 +177,25 @@ namespace UI.Runtime
         public void StopSpeech()
         {
             _channel.Source.Stop();
+        }
+
+        public void EndInvestigation()
+        {
+            if(_chargedSuspect.Suspect.IsCulprit)
+            {
+                _channel.Source.Stop();
+                _channel.Source.clip = _culpritEndSound;
+                _channel.Source.volume = _culpritEndVolume;
+                _channel.Source.Play();
+
+                Invoke(nameof(StopSpeech), _culpritEndSound.length);
+                Invoke(nameof(Reload), _culpritEndSound.length);
+            }
+            else
+            {
+                StopSpeech();
+                Reload();
+            }
         }
 
         private void UpdateDisplay()
