@@ -499,7 +499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c7f3d43b65ac61428a68cf206b1f432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _lineCount: 1
+  _lineCount: 2
   _fontSizeCorrector: 1
   _target: {fileID: 6374319555687812520}
 --- !u!222 &6374319555687812523
@@ -594,7 +594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c7f3d43b65ac61428a68cf206b1f432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _lineCount: 10
+  _lineCount: 25
   _fontSizeCorrector: 0.75
   _target: {fileID: 6374319556906151515}
 --- !u!222 &6374319556906151514
@@ -638,25 +638,34 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '1
-
-    2
-
-    3
-
-    4
-
-    5
-
-    6
-
-    7
-
-    8
-
-    9
-
-    10'
+  m_Text: "Je me souviens de cette chambre\u2026 Cette luxueuse suite est celle o\xF9
+    mon mari et moi nous retrouvions\u2026 Pourquoi ne l'ai-je pas reconnue plus
+    t\xF4t?\r\nMon mal de t\xEAte\u2026 j\u2019ai l\u2019impression que ma t\xEAte
+    va exploser\u2026 Qu\u2019est ce que je ne donnerais pas pour une bonne bouteille
+    de whisky\u2026 Bon je dois trouver plus d'indices ou parvenir \xE0 mieux r\xE9fl\xE9chir\u2026\r\nAvec
+    tous ces \xE9l\xE9ments li\xE9s \xE0 Cthulhu, qu\u2019est ce que le tueur \xE0
+    voulu faire? \xC0 moins que ce soit la victime qui ait fait un rituel et le tueur
+    l\u2019aura interrompu? reste concentr\xE9e, Ir\xE8ne, les formules\u2026 gr\xE2ce
+    au livre de ce pr\xEAtre occulte je peux mieux les comprendre\u2026 c'\xE9tait
+    un sort de r\xE9surrection!\r\n\r\nMais\u2026 Non il y a trop d'erreurs, la personne
+    doit manquer de concentration\u2026 Pourtant tout le monde sait qu\u2019il ne
+    faut pas s\u2019adresser aux instances sup\xE9rieures comme Cthulhu si on n\u2019est
+    pas concentr\xE9\u2026 et vu le nombre de bouteilles vides, la personne ne devait
+    pas \xEAtre tr\xE8s lucide\u2026 Je ne lui jetterais pas la pierre, moi-m\xEAme
+    je donnerais tout pour un verre, je suis certaine que sa ferait passer mon mal
+    de t\xEAte\u2026\r\n\r\nMais, c\u2019est mon alliance! Je suis s\xFBre de ne
+    pas l\u2019avoir perdu durant mon investigation sur le lieu du crime, je porte
+    toujours des gants\u2026 Aaah ces voix dans ma t\xEAte r\xE9sonnent, j\u2019ai
+    tellement mal, je n\u2019en peux plus\u2026 \xC0 voir toutes ces preuves on pourrait
+    penser que c\u2019est moi la victime ou le coupable\u2026 j\u2019ai tellement
+    mal \xE0 la t\xEAte, les paroles r\xE9sonnent\u2026 je n\u2019y comprends plus
+    rien, je voudrais seulement dormir, m\u2019\xE9tendre ici\u2026Et me laisser
+    mourir\u2026 oh Charles mon bien aim\xE9 je ferais tout pour te revoir\u2026\r\n\r\nJ\u2019ai
+    l\u2019impression d\u2019\xEAtre malade\u2026 je me sens faible\u2026 mes souvenirs
+    reviennent\u2026 Non, ce n\u2019est pas possible\u2026 Ai-je fait ce rituel?
+    Suis-je la victime? ou bien le meurtrier? \xC7a n'a plus d\u2019importance, j\u2019ai
+    trop mal \xE0 la t\xEAte\u2026 je n\u2019en supporterais plus davantage\u2026
+    Adieu, retrouvons-nous mon bien aim\xE9\u2026\r\n"
 --- !u!1 &6374319557540855828
 GameObject:
   m_ObjectHideFlags: 0
