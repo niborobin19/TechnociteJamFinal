@@ -161,6 +161,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _clue: {fileID: 11400000, guid: 55651f06032e76b44bc274fbe9563feb, type: 2}
   _displayedClue: {fileID: 11400000, guid: 2f665c5a669b57b4a8606211832ea775, type: 2}
+  _channel: {fileID: 11400000, guid: 1da2570d0bc708843a6c39f9c239369d, type: 2}
+  _interactionSound: {fileID: 8300000, guid: d1d7b63215f05ad46baf3e871d7ee503, type: 3}
+  _interactionVolumeCoefficient: 1
   _sprite: {fileID: 2934855389572118215}
   _pin: {fileID: 8974900688166716460}
 --- !u!114 &6919206783550737558

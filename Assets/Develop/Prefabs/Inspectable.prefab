@@ -46,10 +46,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bb1db35c55351e44bc583828b931855, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _channel: {fileID: 11400000, guid: 01bc0595564670f46a28bfdbf62a29e2, type: 2}
   _responseText: 'Je suis un object qui display un message
 
 
 '
+  _responseAudio: {fileID: 0}
+  _responseVolume: 0.5
   _displayedText: {fileID: 11400000, guid: 7d88231b675135544b8979039ddc12c9, type: 2}
 --- !u!33 &1749285287311142573
 MeshFilter:
