@@ -178,34 +178,75 @@ PrefabInstance:
       propertyPath: m_Name
       value: Office
       objectReference: {fileID: 0}
+    - target: {fileID: 4764298273851032993, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: m_Volume
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8001136664535240391, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: _warpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9499c16c7ff151046b71eb793821478e, type: 3}
     - target: {fileID: 9161047672160662832, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: 512cd46a06c970743a9f8bc2658b571b, type: 3}
+    - target: {fileID: 9161047672160662832, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 9161047672190750196, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: feea6e9cf9603ce4cb38d9df792d296c, type: 3}
+    - target: {fileID: 9161047672190750196, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9161047672480900914, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: _responseText
+      value: "\"On voit bien que tu as exarg\xE9r\xE9, tu ne te rappelles m\xEAme
+        plus de  ta soir\xE9e d'hier.\""
+      objectReference: {fileID: 0}
     - target: {fileID: 9161047672480900914, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: 579eb641c05e3d841a64425520fefa2c, type: 3}
+    - target: {fileID: 9161047672480900914, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 9161047672844639755, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: b3848c6167c8586439777d32268468e9, type: 3}
+    - target: {fileID: 9161047672844639755, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 9161047673041761391, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: c74b03824787bb1449494180bc07e52c, type: 3}
+    - target: {fileID: 9161047673041761391, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 9161047673758193979, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: a14311ded60867d4d9fc76dd1bbed229, type: 3}
+    - target: {fileID: 9161047673758193979, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 9161047673838447129, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: 3223b1fb3c2475a4495d1caedd9fc3d8, type: 3}
+    - target: {fileID: 9161047673838447129, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
 --- !u!1001 &369041158
@@ -215,6 +256,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3237238691724690810, guid: e1aa56a229e9b4349b39a3d730045fbe, type: 3}
+      propertyPath: m_Volume
+      value: 0.515
+      objectReference: {fileID: 0}
     - target: {fileID: 5219197385484674642, guid: e1aa56a229e9b4349b39a3d730045fbe, type: 3}
       propertyPath: _moveSpeed
       value: 2.5
@@ -233,7 +278,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5219197385484674643, guid: e1aa56a229e9b4349b39a3d730045fbe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.532
+      value: -32.749
       objectReference: {fileID: 0}
     - target: {fileID: 5219197385484674643, guid: e1aa56a229e9b4349b39a3d730045fbe, type: 3}
       propertyPath: m_LocalPosition.y
@@ -241,23 +286,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5219197385484674643, guid: e1aa56a229e9b4349b39a3d730045fbe, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.29
+      value: -2.73
       objectReference: {fileID: 0}
     - target: {fileID: 5219197385484674643, guid: e1aa56a229e9b4349b39a3d730045fbe, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.4313814
       objectReference: {fileID: 0}
     - target: {fileID: 5219197385484674643, guid: e1aa56a229e9b4349b39a3d730045fbe, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5219197385484674643, guid: e1aa56a229e9b4349b39a3d730045fbe, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: 0.9021697
       objectReference: {fileID: 0}
     - target: {fileID: 5219197385484674643, guid: e1aa56a229e9b4349b39a3d730045fbe, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5219197385484674643, guid: e1aa56a229e9b4349b39a3d730045fbe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -265,7 +310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5219197385484674643, guid: e1aa56a229e9b4349b39a3d730045fbe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
+      value: 128.889
       objectReference: {fileID: 0}
     - target: {fileID: 5219197385484674643, guid: e1aa56a229e9b4349b39a3d730045fbe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -751,6 +796,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1124732744, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseSpeeches.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: d079131f7807d9e4c9e8174ef9367ea8, type: 3}
+    - target: {fileID: 1124732744, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseSpeeches.Array.data[1]
       value: 
       objectReference: {fileID: 8300000, guid: 6fdc8aba48fd3f9429b7c4f7fe4691fa, type: 3}
@@ -758,6 +807,22 @@ PrefabInstance:
       propertyPath: _responseSpeeches.Array.data[2]
       value: 
       objectReference: {fileID: 8300000, guid: d7101681823603345bfc4c4568ded124, type: 3}
+    - target: {fileID: 1124732744, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseSpeechVolume.Array.data[0]
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1124732744, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseSpeechVolume.Array.data[1]
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1124732744, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseSpeechVolume.Array.data[2]
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1124732744, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseSoundVolumeCoefficients.Array.data[2]
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 45669138772662234, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: m_Size.x
       value: 2.9816928
@@ -782,38 +847,139 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: -1.7352533
       objectReference: {fileID: 0}
+    - target: {fileID: 2692510743349166908, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.455
+      objectReference: {fileID: 0}
+    - target: {fileID: 2788454027787267771, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2788454027787267771, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.6043763
+      objectReference: {fileID: 0}
     - target: {fileID: 3250072787402748578, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: 4797a47fb7fc4d54ea0ee5c1a366dee3, type: 3}
+    - target: {fileID: 3250072787402748578, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072787611297677, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072787626905183, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3250072787664954552, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: bbaebbac5feb4414eb63caf4a63e2aa5, type: 3}
+    - target: {fileID: 3250072787664954552, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072787697282679, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseText
+      value: "Oh non, pas de lumi\xE8re, j'ai un tel mal de t\xEAte\u2026 Je pr\xE9f\xE8re
+        rester dans le noir."
+      objectReference: {fileID: 0}
     - target: {fileID: 3250072787697282679, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: 4c24476041a60294f8b40144bad784f2, type: 3}
+    - target: {fileID: 3250072787697282679, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072787901980793, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseText
+      value: "\u201CUn peu t\xF4t pour un bain de minuit...\u201D"
+      objectReference: {fileID: 0}
     - target: {fileID: 3250072787901980793, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: e7cd38e8dcf77ad4d965d46478df44a1, type: 3}
+    - target: {fileID: 3250072787901980793, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072788221630310, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072788230987594, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3250072788259297813, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: 45adb0a84daa7144daa925f4c279e1d0, type: 3}
+    - target: {fileID: 3250072788259297813, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3250072788842214425, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: d72090f0ac14eb8488ae04e743a8be65, type: 3}
+    - target: {fileID: 3250072788842214425, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072788891722665, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_Volume
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072788892980956, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072789056704577, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072789161922456, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 12fd4a7897fd9ea45853eff4559dbea5, type: 3}
+    - target: {fileID: 3250072789161922456, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3250072789173949591, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: 1c67d9f09ef81ac44b8318473c89dbf5, type: 3}
+    - target: {fileID: 3250072789173949591, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3980340934888001598, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: ef2473eb241898d4aa41a7cdd6526c9c, type: 3}
+    - target: {fileID: 3980340934888001598, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4185755864176431421, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032366544371339867, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032366544371339867, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.0726733
+      objectReference: {fileID: 0}
     - target: {fileID: 5477679444722806709, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: m_Name
       value: HOTELROOM
@@ -862,13 +1028,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6497217554603652706, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _warpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9499c16c7ff151046b71eb793821478e, type: 3}
+    - target: {fileID: 6625081982986294908, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625081982986294908, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.6043763
+      objectReference: {fileID: 0}
+    - target: {fileID: 6680125499027948837, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6680125499027948837, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.6043763
+      objectReference: {fileID: 0}
     - target: {fileID: 7167805196656760860, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: e5dbdc8164707024c8ffde270c0c652c, type: 3}
+    - target: {fileID: 7167805196656760860, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseVolume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8804762538733634662, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4185755864176431421, guid: 854e41493d8774947af5dce13452173e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 854e41493d8774947af5dce13452173e, type: 3}
