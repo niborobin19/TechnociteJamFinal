@@ -81,7 +81,7 @@ MonoBehaviour:
   _displayedSuspect: {fileID: 11400000, guid: 595a81eefed35f342bf2dac96e4b9857, type: 2}
   _channel: {fileID: 11400000, guid: 1da2570d0bc708843a6c39f9c239369d, type: 2}
   _interactionSound: {fileID: 8300000, guid: b72ca87e3f1ab4145b2fcab35ead6406, type: 3}
-  _interactionVolume: 1
+  _interactionVolumeCoefficient: 1
   _sprite: {fileID: 347102775758955246}
   _pin: {fileID: 9151687612148109918}
 --- !u!65 &7571630416795973287
@@ -196,7 +196,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
