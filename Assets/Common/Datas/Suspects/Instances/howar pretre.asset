@@ -37,7 +37,7 @@ MonoBehaviour:
     Phillips.\r\nCependant, le rituel me semble un peu b\xE2cl\xE9 pour quelqu\u2019un
     de son rang\u2026 il a d\xFB \xEAtre press\xE9 ou peut \xEAtre \xE9tait t\u2019il
     trop nerveux par son premier meurtre! \r"
-  _deductionSpeech: {fileID: 8300000, guid: fee8213e0879d2f45b2e3e60738f0c97, type: 3}
+  _deductionSpeech: {fileID: 0}
   _deductionSpeechVolume: 0.5
   _endingTitle: Confrontation
   _endingStory: "Howard se cache derri\xE8re les erreurs du rituel me disant que
@@ -52,7 +52,7 @@ MonoBehaviour:
     Me serais-je tromp\xE9e? Je veux en avoir le c\u0153ur net et \xE0 contre-c\u0153ur
     je me remet \xE0 la recherche de nouvelles pistes, mais d\u2019abord un petit
     verre de Whisky. \r"
-  _endingSpeech: {fileID: 8300000, guid: fee8213e0879d2f45b2e3e60738f0c97, type: 3}
+  _endingSpeech: {fileID: 0}
   _endingSpeechVolume: 0.5
   _relatedClues:
   - {fileID: 11400000, guid: b1c189b310aaba9419db6c65b12acfc9, type: 2}

@@ -20,12 +20,13 @@ MonoBehaviour:
     \xE0 mes services pour monter un dossier\u2026 Certains hommes se croient tout
     permis\u2026 Il \xE9tait loin de ressembler \xE0 mon tendre aim\xE9, Charles\u2026
     Mais je m\u2019\xE9loigne. Impossible de l'inculper pour les coups qu\u2019il
-    a port\xE9s \xE0 Maryl\xE8ne, au yeux de la loi il n\u2019aurait qu\u2019un avertissement\u2026
-    Justice aveugle, enfin \xE7a d\xE9pend pourquoi, car j\u2019ai pu monter un dossier
-    pour fraude et il est directement pass\xE9 par la case prison! Je ne me souviens
-    plus si elle a eu des nouvelles de lui\r\nNous sommes devenues amies, mais mon
-    professionnalisme me permet de mettre mes sentiments de c\xF4t\xE9! Elle s\u2019appr\xEAte
-    \xE0 saisir sa chance dans un th\xE9\xE2tre non loin de l'h\xF4tel.\r"
+    a port\xE9s \xE0 Maryl\xE8ne, au yeux de la loi il n\u2019aurait  eu qu\u2019un
+    avertissement\u2026 Justice aveugle, enfin \xE7a d\xE9pend pourquoi, car j\u2019ai
+    pu monter un dossier pour fraude et il est directement pass\xE9 par la case prison!
+    Je ne me souviens plus si elle a eu des nouvelles de lui\r\nNous sommes devenues
+    amies, mais mon professionnalisme me permet de mettre mes sentiments de c\xF4t\xE9!
+    Elle s\u2019appr\xEAte \xE0 saisir sa chance dans un th\xE9\xE2tre non loin de
+    l'h\xF4tel.\r"
   _sprite: {fileID: 21300000, guid: aea582e214a0e40479310dd93d41f069, type: 3}
   _displayClueCount: 3
   _isCulprit: 0
@@ -50,7 +51,7 @@ MonoBehaviour:
     potentielle, je n\u2019arrive pas \xE0 me souvenir pr\xE9cis\xE9ment\u2026 Mais
     c\u2019\xE9tait une actrice un peu plus jeune, qui avait le vent en poupe et,
     qui surtout, \xE9tait parvenue \xE0 attirer sur elle le feu des projecteurs.\r"
-  _deductionSpeech: {fileID: 8300000, guid: fee8213e0879d2f45b2e3e60738f0c97, type: 3}
+  _deductionSpeech: {fileID: 0}
   _deductionSpeechVolume: 0.5
   _endingTitle: Confrontation amicale
   _endingStory: "Maryl\xE8ne se d\xE9fend elle dit n'avoir jamais mis les pieds dans
@@ -66,7 +67,7 @@ MonoBehaviour:
     ne m'en veut m\xEAme pas\u2026 elle trouve \xE7a dr\xF4le et burlesque\u2026
     Elle sait que \xE7a ne va pas fort pour moi\u2026 Mon deuil sauve mon amiti\xE9\u2026
     mais ne m'aide pas \xE0 r\xE9soudre cette foutue affaire, je retourne enqu\xEAter.\r"
-  _endingSpeech: {fileID: 8300000, guid: fee8213e0879d2f45b2e3e60738f0c97, type: 3}
+  _endingSpeech: {fileID: 0}
   _endingSpeechVolume: 0.5
   _relatedClues:
   - {fileID: 11400000, guid: 425125a88090a2c47bb2174565f550aa, type: 2}

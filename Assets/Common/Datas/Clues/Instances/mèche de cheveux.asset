@@ -18,5 +18,5 @@ MonoBehaviour:
     pour des rituels, il me semble que je l'avais lu quelque part\u2026 Ce qui est
     s\xFBr c'est que la victime ou le tueur aurait pu \xEAtre mon type d'homme, cette
     couleur me fait craquer\u2026 Mais pourquoi je parle de \xE7a, je divague\u2026"
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: a2db331c3f5dc08459e02874c91bbe73, type: 3}
   _onClueChanged: {fileID: 11400000, guid: 8e5ed9f7d37105b45a7e199a0cb71f63, type: 2}

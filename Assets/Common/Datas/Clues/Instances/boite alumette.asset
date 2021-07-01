@@ -17,5 +17,5 @@ MonoBehaviour:
     ce sont les meilleurs de la ville. Il y a un th\xE9\xE2tre juste \xE0 c\xF4t\xE9
     et un restaurant gastronomique tout pr\xE8s. Tenue \xE9l\xE9gante de rigueur
     en ces lieux mondains. "
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 84676a84950002a49801680d0d105f02, type: 3}
   _onClueChanged: {fileID: 11400000, guid: de7828ad0761d1d469cd58e22e0e7a37, type: 2}

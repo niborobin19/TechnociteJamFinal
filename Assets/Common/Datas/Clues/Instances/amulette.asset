@@ -16,5 +16,5 @@ MonoBehaviour:
   _description: "Je reconnais ce symbole, empreint d\u2019une magie interdite et
     dangereuse\u2026 Rien que de le voir j\u2019attrape mal \xE0 la t\xEAte\u2026
     Je pense qu\u2019Howard m\u2019en avait parl\xE9..."
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 30f703bba51f5194ca110f260caec51d, type: 3}
   _onClueChanged: {fileID: 11400000, guid: 89633c0cd81e59049bed447bd9756314, type: 2}

@@ -13,16 +13,11 @@ MonoBehaviour:
   m_Name: Default
   m_EditorClassIdentifier: 
   _suspects:
-  - {fileID: 11400000, guid: 19e5e42952c3ab242851423ce15db393, type: 2}
-  - {fileID: 11400000, guid: 56c64de97026c3247983f8dd1509461a, type: 2}
   - {fileID: 11400000, guid: 89ccb4d4328a1df40bcd943fad4589d6, type: 2}
   - {fileID: 11400000, guid: 4e6b10aa9911d4049be594f45297ff04, type: 2}
   - {fileID: 11400000, guid: 57192324cefb8f04198bf98feb3ae2c1, type: 2}
   - {fileID: 11400000, guid: e59834d092944b944a72638679dc8235, type: 2}
   _clues:
-  - {fileID: 11400000, guid: ffa51500736792c44b28f8810fe57ca2, type: 2}
-  - {fileID: 11400000, guid: 19c11df753592514ab778886f9fbeb44, type: 2}
-  - {fileID: 11400000, guid: 287caf502467111458fd27a4073fb5bd, type: 2}
   - {fileID: 11400000, guid: 1fd841ff9b2dd4e42844987fca1c9a48, type: 2}
   - {fileID: 11400000, guid: 2efff712f6cd2774aae056f582b781bf, type: 2}
   - {fileID: 11400000, guid: c1525b70c2f928c428659854d55728ef, type: 2}
