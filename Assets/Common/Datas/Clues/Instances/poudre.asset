@@ -15,5 +15,5 @@ MonoBehaviour:
   _name: Poudre noire
   _description: "De la poudre noire\u2026 quelqu\u2019un qui manipule des armes \xE0
     feu est sans aucun doute pass\xE9 par ici!"
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 69a19becf5567f14897bede4081d011e, type: 3}
   _onClueChanged: {fileID: 11400000, guid: 56c3d0b3982895d479a1c8413a1a1330, type: 2}

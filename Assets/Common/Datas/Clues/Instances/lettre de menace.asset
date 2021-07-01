@@ -15,6 +15,10 @@ MonoBehaviour:
   _name: Lettre de menace
   _description: "La lettre est r\xE9dig\xE9e par une femme et menace une actrice
     de talent. La lettre n\u2019est pas sign\xE9e mais je peux reconna\xEEtre un
-    parfum."
-  _sprite: {fileID: 0}
+    parfum.\nmessage de la lettre:\n\u201C A l\u2019adresse de la catin se prenant
+    pour une \xE9toile montante. Je me d\xE9menais d\xE9j\xE0 dans le milieu pour
+    r\xE9ussir alors que tu t\xE9tais les seins de ta m\xE8re. Fais profil bas ou
+    prends tes affaires et part sinon ta derni\xE8re \xE9charpe de fille de joie
+    aura la couleur du sang.\u201D"
+  _sprite: {fileID: 21300000, guid: 8a8280a018797d14ba620586ab2bed43, type: 3}
   _onClueChanged: {fileID: 11400000, guid: 8f91a5ae61b66fb4ea4ab45ec6ecfc12, type: 2}

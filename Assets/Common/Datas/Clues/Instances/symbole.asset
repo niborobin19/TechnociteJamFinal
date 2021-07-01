@@ -15,5 +15,5 @@ MonoBehaviour:
   _name: "Symboles \xE9tranges"
   _description: "Impossible de d\xE9chiffrer ce langage, mais il me semble que cela
     ressemble \xE0 ceux utilis\xE9s par le culte de Cthulhu"
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: b99005af9c075f54582a6eca68057f0b, type: 3}
   _onClueChanged: {fileID: 11400000, guid: 36c1cd55b9dc43e4aadafa3667ee4575, type: 2}
