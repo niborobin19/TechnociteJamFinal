@@ -22,7 +22,7 @@ MonoBehaviour:
     et je pense m\xEAme qu'il m'a transmis sa passion pour les whisky mais je crois
     que ca aide dans le m\xE9tier ! Toutes ces horreurs qu'on voit\u2026\n\nJ'avais
     un mari, mais il est mort r\xE9cemment, c'est atroce comme il me manque. Je ferais
-    tout pour le revoir..."
+    tout pour le revoir...\n\n(? indices)"
   _sprite: {fileID: 21300000, guid: 643b665dd205ee347a30070877762a04, type: 3}
   _displayClueCount: 10
   _isCulprit: 1
@@ -41,7 +41,7 @@ MonoBehaviour:
     mon mari\u2026\n\nJ\u2019ai tellement mal \xE0 la t\xEAte\u2026 Je ne comprends
     plus rien\u2026 J\u2019ai l\u2019impression de devenir folle\u2026\n\nJe dois
     retourner sur le lieu du crime j\u2019ai du manquer un indice. j\u2019ai tellement
-    mal\u2026\n\n(12 indices)"
+    mal\u2026"
   _deductionSpeech: {fileID: 0}
   _deductionSpeechVolume: 0.5
   _endingTitle: Je retourne chercher de nouveaux indice

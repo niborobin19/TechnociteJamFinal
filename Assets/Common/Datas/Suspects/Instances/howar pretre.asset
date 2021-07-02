@@ -23,7 +23,7 @@ MonoBehaviour:
     n\u2019est pas issu d\u2019une famille ais\xE9e mais il est tout de m\xEAme tr\xE8s
     instruit. Sa connaissance m\u2019a \xE9t\xE9 tr\xE8s salutaire quand je me suis
     int\xE9ress\xE9e au rite Chtulhien, je ne me souviens plus trop pourquoi d\u2019ailleurs\u2026
-    Sans doute pour une enqu\xEAte.\r"
+    Sans doute pour une enqu\xEAte.\r\n\n(3 indices)"
   _sprite: {fileID: 21300000, guid: c246ce61fd4cafa44974c67ae76c1dfa, type: 3}
   _displayClueCount: 1
   _isCulprit: 0
@@ -36,7 +36,7 @@ MonoBehaviour:
     je vais mettre la pression \xE0 son membre le plus \xE9minent et \xE9couter Howard
     Phillips.\r\n\nCependant, le rituel me semble un peu b\xE2cl\xE9 pour quelqu\u2019un
     de son rang\u2026 il a d\xFB \xEAtre press\xE9 ou peut \xEAtre \xE9tait t\u2019il
-    trop nerveux par son premier meurtre! \r\n\n(3 indices)"
+    trop nerveux par son premier meurtre! "
   _deductionSpeech: {fileID: 0}
   _deductionSpeechVolume: 0.5
   _endingTitle: Confrontation

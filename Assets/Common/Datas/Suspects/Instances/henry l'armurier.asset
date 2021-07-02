@@ -25,7 +25,7 @@ MonoBehaviour:
     en tout genre et toujours de bonne facture.\r\n\nj\u2019ai eu recours \xE0 ses
     services \xE0 de nombreuses reprises\u2026 Pour son expertise dans mes enqu\xEAtes
     mais \xE9galement comme fournisseur, car ses prix sont imbattables et son armurerie
-    est \xE0 c\xF4t\xE9 de mon bureau...\r"
+    est \xE0 c\xF4t\xE9 de mon bureau...\r\n\n(3 indices)"
   _sprite: {fileID: 21300000, guid: f7606dad6090a5248ad9e990d28be2ec, type: 3}
   _displayClueCount: 2
   _isCulprit: 0
@@ -49,8 +49,7 @@ MonoBehaviour:
     sinon je les lui aurais rendues! Mais je pense surtout qu\u2019il ne les a jamais
     perdues et voulait faire jouer l\u2019assurance! Il m\u2019a dit que les affaires
     n\u2019\xE9taient pas florissantes ces derniers temps...\r\n\nEt pour finir sa
-    carte de visite\u2026 Aucun doute ne peut persister, c\u2019est lui!\r\n\n(3
-    indices)"
+    carte de visite\u2026 Aucun doute ne peut persister, c\u2019est lui!\r"
   _deductionSpeech: {fileID: 0}
   _deductionSpeechVolume: 0.5
   _endingTitle: Confrontation

@@ -25,11 +25,12 @@ MonoBehaviour:
     pu monter un dossier pour fraude et il est directement pass\xE9 par la case prison!
     Je ne me souviens plus si elle a eu des nouvelles de lui\r\n\nNous sommes devenues
     amies, mais mon professionnalisme me permet de mettre mes sentiments de c\xF4t\xE9!\n\nElle
-    s\u2019appr\xEAte \xE0 saisir sa chance dans un th\xE9\xE2tre non loin de l'h\xF4tel.\r"
+    s\u2019appr\xEAte \xE0 saisir sa chance dans un th\xE9\xE2tre non loin de l'h\xF4tel.\r\n\n(3
+    indices)"
   _sprite: {fileID: 21300000, guid: aea582e214a0e40479310dd93d41f069, type: 3}
   _displayClueCount: 3
   _isCulprit: 0
-  _deductionTitle: "Je soup\xE7onne..."
+  _deductionTitle: Je soupconne...
   _deductionStory: "J'ai du mal \xE0 trouver le mobile du meurtre\u2026\n\nPourquoi
     Maryl\xE8ne aurait pu tuer? La victime \xE9tait une femme du m\xEAme \xE2ge qu'elle.
     Ce pourrait-il que se soit la peur d'\xEAtre remplac\xE9e au th\xE9\xE2tre ?
@@ -49,8 +50,7 @@ MonoBehaviour:
     je me rappelle que Maryl\xE8ne m\u2019avait parl\xE9 d\u2019une nouvelle concurrente
     potentielle, je n\u2019arrive pas \xE0 me souvenir pr\xE9cis\xE9ment\u2026 Mais
     c\u2019\xE9tait une actrice un peu plus jeune, qui avait le vent en poupe et,
-    qui surtout, \xE9tait parvenue \xE0 attirer sur elle le feu des projecteurs.\r\n\n(3
-    indices)"
+    qui surtout, \xE9tait parvenue \xE0 attirer sur elle le feu des projecteurs.\r"
   _deductionSpeech: {fileID: 0}
   _deductionSpeechVolume: 0.5
   _endingTitle: Confrontation amicale
