@@ -215,6 +215,10 @@ PrefabInstance:
       value: Office
       objectReference: {fileID: 0}
     - target: {fileID: 4764298273851032993, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4764298273851032993, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
       propertyPath: m_Volume
       value: 0.15
       objectReference: {fileID: 0}
