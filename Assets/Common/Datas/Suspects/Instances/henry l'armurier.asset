@@ -50,7 +50,7 @@ MonoBehaviour:
     perdues et voulait faire jouer l\u2019assurance! Il m\u2019a dit que les affaires
     n\u2019\xE9taient pas florissantes ces derniers temps...\r\nEt pour finir sa
     carte de visite\u2026 Aucun doute ne peut persister, c\u2019est lui!\r"
-  _deductionSpeech: {fileID: 8300000, guid: fee8213e0879d2f45b2e3e60738f0c97, type: 3}
+  _deductionSpeech: {fileID: 0}
   _deductionSpeechVolume: 0.5
   _endingTitle: Confrontation
   _endingStory: "Henri s'\xE9vertue \xE0 clamer son innocence\u2026 Son avocat lui
@@ -62,7 +62,7 @@ MonoBehaviour:
     et m\xEAme l\u2019apothicaire\u2026\r\nMe serais-je tromp\xE9e? Je retourne au
     bureau pour \xE9tudier l\u2019affaire et sur le lieu du crime pour trouver d'autres
     indices.\r"
-  _endingSpeech: {fileID: 8300000, guid: fee8213e0879d2f45b2e3e60738f0c97, type: 3}
+  _endingSpeech: {fileID: 0}
   _endingSpeechVolume: 0.5
   _relatedClues:
   - {fileID: 11400000, guid: a6ce1909881cb8c41a94ab1401970052, type: 2}
