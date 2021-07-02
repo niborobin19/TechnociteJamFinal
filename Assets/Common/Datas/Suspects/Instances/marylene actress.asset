@@ -49,7 +49,8 @@ MonoBehaviour:
     je me rappelle que Maryl\xE8ne m\u2019avait parl\xE9 d\u2019une nouvelle concurrente
     potentielle, je n\u2019arrive pas \xE0 me souvenir pr\xE9cis\xE9ment\u2026 Mais
     c\u2019\xE9tait une actrice un peu plus jeune, qui avait le vent en poupe et,
-    qui surtout, \xE9tait parvenue \xE0 attirer sur elle le feu des projecteurs.\r"
+    qui surtout, \xE9tait parvenue \xE0 attirer sur elle le feu des projecteurs.\r\n\n(3
+    indices)"
   _deductionSpeech: {fileID: 0}
   _deductionSpeechVolume: 0.5
   _endingTitle: Confrontation amicale
