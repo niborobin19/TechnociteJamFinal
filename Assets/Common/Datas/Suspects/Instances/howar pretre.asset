@@ -31,10 +31,10 @@ MonoBehaviour:
   _deductionStory: "Je le sens, des forces sup\xE9rieurs semblent \xEAtre en mouvement
     dans cette affaire et pas n\u2019importe lesquelles\u2026 Cthulhu a \xE9t\xE9
     invoqu\xE9 en ces lieux. La victime \xE9tait peut \xEAtre une offrande pour le
-    dieu. je crois que ca y est, un des adeptes de cette secte a enfin d\xE9pass\xE9
+    dieu.\n\nJe crois que ca y est, un des adeptes de cette secte a enfin d\xE9pass\xE9
     les limites! c\u2019est peut \xEAtre m\xEAme toute la secte qui est impliqu\xE9e,
     je vais mettre la pression \xE0 son membre le plus \xE9minent et \xE9couter Howard
-    Phillips.\r\nCependant, le rituel me semble un peu b\xE2cl\xE9 pour quelqu\u2019un
+    Phillips.\r\n\nCependant, le rituel me semble un peu b\xE2cl\xE9 pour quelqu\u2019un
     de son rang\u2026 il a d\xFB \xEAtre press\xE9 ou peut \xEAtre \xE9tait t\u2019il
     trop nerveux par son premier meurtre! \r"
   _deductionSpeech: {fileID: 0}
@@ -43,13 +43,13 @@ MonoBehaviour:
   _endingStory: "Howard se cache derri\xE8re les erreurs du rituel me disant que
     seul un d\xE9butant ou quelqu\u2019un de d\xE9sesp\xE9r\xE9 pouvait avoir recours
     \xE0 ce genre de pratique. Qu\u2019il avait m\xEAme interdit \xE0 ses fr\xE8res
-    Chtulhuiens de commettre de telles ignominies\u2026 Toutes ses j\xE9r\xE9miades
+    Chtulhuiens de commettre de telles ignominies\u2026 \n\nToutes ses j\xE9r\xE9miades
     ont amplifi\xE9 mon mal de cr\xE2ne\u2026 Les coupables sont tous pareils, ils
-    clament toujours leur innocence\u2026\r\nSon avocat, \xE0 des t\xE9moignages
+    clament toujours leur innocence\u2026\r\n\nSon avocat, \xE0 des t\xE9moignages
     de certains de ses pairs\u2026 Ils ne font s\xFBrement que le couvrir... Par
     contre, je ne m\u2019attendais pas au t\xE9moignage du Docteur Lavandier! Il
-    pr\xE9tend qu\u2019Howard ne pourrait pas manipuler une arme avec son arthrite\u2026
-    Me serais-je tromp\xE9e? Je veux en avoir le c\u0153ur net et \xE0 contre-c\u0153ur
+    pr\xE9tend qu\u2019Howard ne pourrait pas manipuler une arme avec son arthrite\u2026\n\nMe
+    serais-je tromp\xE9e? Je veux en avoir le c\u0153ur net et \xE0 contre-c\u0153ur
     je me remet \xE0 la recherche de nouvelles pistes, mais d\u2019abord un petit
     verre de Whisky. \r"
   _endingSpeech: {fileID: 0}

@@ -29,49 +29,50 @@ MonoBehaviour:
   _deductionTitle: Le whisky me joue des tours
   _deductionStory: "Mon p\xE8re disait toujours, si \xE7a ressemble \xE0 du whisky,
     si \xE7a a l\u2019odeur du whisky c\u2019est probablement du whisky\u2026 Il
-    y a un d\xE9nominateur commun \xE0 toutes les preuves... Moi\u2026 Ca me semble
-    totalement d\xE9lirant pourquoi aurai-je tu\xE9 cette personne? Et puis, je ne
-    me souviens m\xEAme pas de qui \xE9tait vraiment la victime, c\u2019\xE9tait
+    y a un d\xE9nominateur commun \xE0 toutes les preuves... Moi\u2026 \n\nCa me
+    semble totalement d\xE9lirant pourquoi aurai-je tu\xE9 cette personne? Et puis,
+    je ne me souviens m\xEAme pas de qui \xE9tait vraiment la victime, c\u2019\xE9tait
     une femme de plus au moins ma tranche d\u2019\xE2ge\u2026 Pourquoi diantre l'aurais-je
-    tu\xE9e? et puis je dois avoir un alibi\u2026 je n\u2019arrive pas \xE0 me rappeler
-    ce que je faisais hier\u2026 Plus j\u2019y pense, plus j\u2019ai mal \xE0 la
-    t\xEAte\u2026 Je me souviens avoir allum\xE9 des bougies\u2026 Et des mots bizarres
-    r\xE9sonnent dans ma t\xEAte\u2026 c\u2019est li\xE9 \xE0 Cthulhu\u2026 je sais
-    que j\u2019avais \xE9tudi\xE9 des rites Cthulhiens apr\xE8s la mort de mon mari\u2026
-    j\u2019ai tellement mal \xE0 la t\xEAte\u2026 je ne comprends plus rien\u2026
-    j\u2019ai l\u2019impression de devenir folle\u2026 je dois retourner sur le lieu
-    du crime j\u2019ai du manquer un indice. j\u2019ai tellement mal\u2026"
+    tu\xE9e? et puis je dois avoir un alibi\u2026 Je n\u2019arrive pas \xE0 me rappeler
+    ce que je faisais hier\u2026 \n\nPlus j\u2019y pense, plus j\u2019ai mal \xE0
+    la t\xEAte\u2026 Je me souviens avoir allum\xE9 des bougies\u2026 Et des mots
+    bizarres r\xE9sonnent dans ma t\xEAte\u2026 C\u2019est li\xE9 \xE0 Cthulhu\u2026
+    Je sais que j\u2019avais \xE9tudi\xE9 des rites Cthulhiens apr\xE8s la mort de
+    mon mari\u2026\n\nJ\u2019ai tellement mal \xE0 la t\xEAte\u2026 Je ne comprends
+    plus rien\u2026 J\u2019ai l\u2019impression de devenir folle\u2026\n\nJe dois
+    retourner sur le lieu du crime j\u2019ai du manquer un indice. j\u2019ai tellement
+    mal\u2026"
   _deductionSpeech: {fileID: 0}
   _deductionSpeechVolume: 0.5
   _endingTitle: Je retourne chercher de nouveaux indice
   _endingStory: "Je me souviens de cette chambre\u2026 Cette luxueuse suite est celle
     o\xF9 mon mari et moi nous retrouvions\u2026 Pourquoi ne l'ai-je pas reconnue
-    plus t\xF4t?\r\nMon mal de t\xEAte\u2026 j\u2019ai l\u2019impression que ma t\xEAte
-    va exploser\u2026 Qu\u2019est ce que je ne donnerais pas pour une bonne bouteille
-    de whisky\u2026 Bon je dois trouver plus d'indices ou parvenir \xE0 mieux r\xE9fl\xE9chir\u2026\r\nAvec
-    tous ces \xE9l\xE9ments li\xE9s \xE0 Cthulhu, qu\u2019est ce que le tueur \xE0
-    voulu faire? \xC0 moins que ce soit la victime qui ait fait un rituel et le tueur
-    l\u2019aura interrompu? reste concentr\xE9e, Ir\xE8ne, les formules\u2026 gr\xE2ce
-    au livre de ce pr\xEAtre occulte je peux mieux les comprendre\u2026 c'\xE9tait
-    un sort de r\xE9surrection!\r\n\r\nMais\u2026 Non il y a trop d'erreurs, la personne
-    doit manquer de concentration\u2026 Pourtant tout le monde sait qu\u2019il ne
-    faut pas s\u2019adresser aux instances sup\xE9rieures comme Cthulhu si on n\u2019est
-    pas concentr\xE9\u2026 et vu le nombre de bouteilles vides, la personne ne devait
-    pas \xEAtre tr\xE8s lucide\u2026 Je ne lui jetterais pas la pierre, moi-m\xEAme
-    je donnerais tout pour un verre, je suis certaine que sa ferait passer mon mal
-    de t\xEAte\u2026\r\n\r\nMais, c\u2019est mon alliance! Je suis s\xFBre de ne
-    pas l\u2019avoir perdu durant mon investigation sur le lieu du crime, je porte
-    toujours des gants\u2026 Aaah ces voix dans ma t\xEAte r\xE9sonnent, j\u2019ai
-    tellement mal, je n\u2019en peux plus\u2026 \xC0 voir toutes ces preuves on pourrait
-    penser que c\u2019est moi la victime ou le coupable\u2026 j\u2019ai tellement
-    mal \xE0 la t\xEAte, les paroles r\xE9sonnent\u2026 je n\u2019y comprends plus
-    rien, je voudrais seulement dormir, m\u2019\xE9tendre ici\u2026Et me laisser
-    mourir\u2026 oh Charles mon bien aim\xE9 je ferais tout pour te revoir\u2026\r\n\r\nJ\u2019ai
-    l\u2019impression d\u2019\xEAtre malade\u2026 je me sens faible\u2026 mes souvenirs
+    plus t\xF4t?\r\n\nMon mal de t\xEAte\u2026 j\u2019ai l\u2019impression que ma
+    t\xEAte va exploser\u2026 Qu\u2019est ce que je ne donnerais pas pour une bonne
+    bouteille de whisky\u2026 Bon je dois trouver plus d'indices ou parvenir \xE0
+    mieux r\xE9fl\xE9chir\u2026\r\n\nAvec tous ces \xE9l\xE9ments li\xE9s \xE0 Cthulhu,
+    qu\u2019est ce que le tueur \xE0 voulu faire? \xC0 moins que ce soit la victime
+    qui ait fait un rituel et le tueur l\u2019aura interrompu? Reste concentr\xE9e,
+    Ir\xE8ne, les formules\u2026 Gr\xE2ce au livre de ce pr\xEAtre occulte je peux
+    mieux les comprendre\u2026 C'\xE9tait un sort de r\xE9surrection!\r\n\r\nMais\u2026
+    Non il y a trop d'erreurs, la personne doit manquer de concentration\u2026 Pourtant
+    tout le monde sait qu\u2019il ne faut pas s\u2019adresser aux instances sup\xE9rieures
+    comme Cthulhu si on n\u2019est pas concentr\xE9\u2026 Et vu le nombre de bouteilles
+    vides, la personne ne devait pas \xEAtre tr\xE8s lucide\u2026 Je ne lui jetterais
+    pas la pierre, moi-m\xEAme je donnerais tout pour un verre, je suis certaine
+    que sa ferait passer mon mal de t\xEAte\u2026\r\n\r\nMais!? C\u2019est mon alliance!
+    Je suis s\xFBre de ne pas l\u2019avoir perdu durant mon investigation sur le
+    lieu du crime, je porte toujours des gants\u2026\n\nAaah ces voix dans ma t\xEAte
+    r\xE9sonnent, j\u2019ai tellement mal, je n\u2019en peux plus\u2026 \xC0 voir
+    toutes ces preuves on pourrait penser que c\u2019est moi la victime ou le coupable\u2026
+    j\u2019ai tellement mal \xE0 la t\xEAte, les paroles r\xE9sonnent\u2026 je n\u2019y
+    comprends plus rien, je voudrais seulement dormir, m\u2019\xE9tendre ici\u2026Et
+    me laisser mourir\u2026 oh Charles mon bien aim\xE9 je ferais tout pour te revoir\u2026\r\n\r\nJ\u2019ai
+    l\u2019impression d\u2019\xEAtre malade\u2026 Je me sens faible\u2026 mes souvenirs
     reviennent\u2026 Non, ce n\u2019est pas possible\u2026 Ai-je fait ce rituel?
     Suis-je la victime? ou bien le meurtrier? \xC7a n'a plus d\u2019importance, j\u2019ai
-    trop mal \xE0 la t\xEAte\u2026 je n\u2019en supporterais plus davantage\u2026
-    Adieu, retrouvons-nous mon bien aim\xE9\u2026\r"
+    trop mal \xE0 la t\xEAte\u2026 Je n\u2019en supporterais plus davantage\u2026\nAdieu,
+    retrouvons-nous mon bien aim\xE9\u2026\r"
   _endingSpeech: {fileID: 0}
   _endingSpeechVolume: 0.5
   _relatedClues:

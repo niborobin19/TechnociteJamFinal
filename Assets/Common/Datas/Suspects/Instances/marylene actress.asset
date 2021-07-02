@@ -31,23 +31,23 @@ MonoBehaviour:
   _displayClueCount: 3
   _isCulprit: 0
   _deductionTitle: "Je soup\xE7onne..."
-  _deductionStory: "J'ai du mal \xE0 trouver le mobile du meurtre\u2026 Pourquoi
+  _deductionStory: "J'ai du mal \xE0 trouver le mobile du meurtre\u2026\n\nPourquoi
     Maryl\xE8ne aurait pu tuer? La victime \xE9tait une femme du m\xEAme \xE2ge qu'elle.
     Ce pourrait-il que se soit la peur d'\xEAtre remplac\xE9e au th\xE9\xE2tre ?
     Elle m'avait avou\xE9 que c'\xE9tait le r\xF4le de sa vie et que rien ni personne
-    ne la bloquerait, cette fois\u2026 \r\nDu coup, lorsqu\u2019elle a compris qu\u2019elle
-    \xE9tait sur le point d\u2019\xEAtre remplac\xE9e, elle aurait pu vouloir passer
-    \xE0 des extr\xE9mit\xE9s mortelles. L\u2019autre actrice doit dispara\xEEtre.
-    D\u2019autant plus que Maryl\xE8ne n\u2019ira pas en rajeunissant, c\u2019est
-    sa derni\xE8re chance de briller! Et surtout ce n\u2019est pas la premi\xE8re
-    fois qu\u2019elle menace quelqu\u2019un pour avoir un r\xF4le...\r\nJ'imagine
+    ne la bloquerait, cette fois\u2026 \r\n\nDu coup, lorsqu\u2019elle a compris
+    qu\u2019elle \xE9tait sur le point d\u2019\xEAtre remplac\xE9e, elle aurait pu
+    vouloir passer \xE0 des extr\xE9mit\xE9s mortelles. L\u2019autre actrice doit
+    dispara\xEEtre. D\u2019autant plus que Maryl\xE8ne n\u2019ira pas en rajeunissant,
+    c\u2019est sa derni\xE8re chance de briller! Et surtout ce n\u2019est pas la
+    premi\xE8re fois qu\u2019elle menace quelqu\u2019un pour avoir un r\xF4le...\r\n\nJ'imagine
     bien la sc\xE8ne\u2026 Maryl\xE8ne a voulu l'intimider avec le faux revolver
     mais la victime ne s'est pas laiss\xE9 faire ! Elle devait avoir un vrai revolver,
     elles se sont battues et le coup est parti. Sa bo\xEEte d'antid\xE9presseurs
     \xE0 du tomber de son sac durant la lutte. Et elle a plac\xE9 la lettre pour
-    faire croire que la victime \xE9tait harcel\xE9e\u2026 j'aimerais tant avoir
-    tort, mais c'est elle la coupable !\r\nMalgr\xE9 ma migraine insupportable, je
-    me rappelle que Maryl\xE8ne m\u2019avait parl\xE9 d\u2019une nouvelle concurrente
+    faire croire que la victime \xE9tait harcel\xE9e\u2026\n\nj'aimerais tant avoir
+    tort, mais c'est elle la coupable !\r\n\nMalgr\xE9 ma migraine insupportable,
+    je me rappelle que Maryl\xE8ne m\u2019avait parl\xE9 d\u2019une nouvelle concurrente
     potentielle, je n\u2019arrive pas \xE0 me souvenir pr\xE9cis\xE9ment\u2026 Mais
     c\u2019\xE9tait une actrice un peu plus jeune, qui avait le vent en poupe et,
     qui surtout, \xE9tait parvenue \xE0 attirer sur elle le feu des projecteurs.\r"
@@ -56,14 +56,14 @@ MonoBehaviour:
   _endingTitle: Confrontation amicale
   _endingStory: "Maryl\xE8ne se d\xE9fend elle dit n'avoir jamais mis les pieds dans
     cet h\xF4tel, car c'est au num\xE9ro 13. Elle est superstitieuse comme beaucoup
-    d'acteurs et d'actrices\u2026 C'est un peu l\xE9ger comme alibi\u2026 \r\nElle
+    d'acteurs et d'actrices\u2026 C'est un peu l\xE9ger comme alibi\u2026 \r\n\nElle
     ajoute qu\u2019elle m'a demand\xE9 le faux revolver mais que je ne lui aurais
     jamais donn\xE9\u2026 je suis pourtant certaine de lui avoir donn\xE9 mais avec
-    mes maux de t\xEAte impossible de me souvenir si elle dit vrai\u2026\r\nEt que
-    ces m\xE9dicaments sont largement distribu\xE9s, c'est pas faux ! Finalement
+    mes maux de t\xEAte impossible de me souvenir si elle dit vrai\u2026\r\n\nEt
+    que ces m\xE9dicaments sont largement distribu\xE9s, c'est pas faux !\n\nFinalement
     mes accusations sont assez l\xE9g\xE8res\u2026 Surtout quand elle m'a avou\xE9
     sa relation secr\xE8te avec le metteur en sc\xE8ne de sa future pi\xE8ce. Il
-    n'h\xE9siterait pas \xE0 t\xE9moigner pour elle, m\xEAme si \xE7a brise son mariage.\r\nMaryl\xE8ne
+    n'h\xE9siterait pas \xE0 t\xE9moigner pour elle, m\xEAme si \xE7a brise son mariage.\r\n\nMaryl\xE8ne
     ne m'en veut m\xEAme pas\u2026 elle trouve \xE7a dr\xF4le et burlesque\u2026
     Elle sait que \xE7a ne va pas fort pour moi\u2026 Mon deuil sauve mon amiti\xE9\u2026
     mais ne m'aide pas \xE0 r\xE9soudre cette foutue affaire, je retourne enqu\xEAter.\r"
