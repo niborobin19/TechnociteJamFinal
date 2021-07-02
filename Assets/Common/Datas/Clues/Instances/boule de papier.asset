@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: boule de papier
   m_EditorClassIdentifier: 
   _name: "boule de papier avec une phrase griffonn\xE9e"
-  _description: "Il y a une \xE9trange formule not\xE9e ici\u2026 \xC7a ressemble
-    \xE0 une formule d'un culte ancien. Quelque chose qui a avoir avec le retour
-    d'\xE2me\u2026 \xC7a reste du charabia pour moi. Le papier a l'air pr\xE9cieux
-    et cher. Je le sais car on m'en a offert du semblable."
+  _description: "Il y a une \xE9trange formule not\xE9e ici\u2026 Ca ressemble \xE0
+    une formule d'un culte ancien. Quelque chose qui a avoir avec le retour d'\xE2me\u2026
+    Ca reste du charabia pour moi. Le papier a l'air pr\xE9cieux et cher. Je le sais
+    car on m'en a offert du semblable."
   _sprite: {fileID: 21300000, guid: 4afbad9ac90c2b044af9bb0b1e1692aa, type: 3}
   _onClueChanged: {fileID: 11400000, guid: 724063cc64a58684d9f7ce69dcbfaf7e, type: 2}

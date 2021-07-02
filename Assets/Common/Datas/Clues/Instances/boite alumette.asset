@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e852d00a717c05249b453de1ff2014ec, type: 3}
   m_Name: boite alumette
   m_EditorClassIdentifier: 
-  _name: "Une bo\xEEte allumettes d\u2019un bar"
+  _name: "Une bo\xEEte allumettes"
   _description: "La victime ou le tueur doit \xEAtre un amateur de cocktails ! Croyez-moi,
     ce sont les meilleurs de la ville. Il y a un th\xE9\xE2tre juste \xE0 c\xF4t\xE9
     et un restaurant gastronomique tout pr\xE8s. Tenue \xE9l\xE9gante de rigueur

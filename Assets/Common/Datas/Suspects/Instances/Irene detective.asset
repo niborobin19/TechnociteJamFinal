@@ -16,18 +16,18 @@ MonoBehaviour:
   _description: "Ir\xE8ne Beauregard, enqu\xEAtrice. Je sais que c'est un m\xE9tier
     d'homme il para\xEEt\u2026 D'ailleurs mon p\xE8re voulait un gar\xE7on, il en
     a eu un mais mon fr\xE8re a pr\xE9f\xE9r\xE9 ouvrir une boulangerie avec son
-    homme\u2026 Bref je m'\xE9loigne\u2026 j'ai l'esprit tr\xE8s embrum\xE9 ces derniers
-    temps et ma consommation d'alcool n'aide pas\u2026 Mon p\xE8re, Mycroft, \xE9tait
-    un grand enqu\xEAteur, il m'a enseign\xE9 toutes les ficelles du m\xE9tier et
-    je pense m\xEAme qu'il m'a transmis sa passion pour les whisky mais je crois
-    que \xE7a aide dans le m\xE9tier ! Toutes ces horreurs qu'on voit\u2026 j'avais
+    homme\u2026\n\nBref je m'\xE9loigne\u2026 j'ai l'esprit tr\xE8s embrum\xE9 ces
+    derniers temps et ma consommation d'alcool n'aide pas\u2026\n\nMon p\xE8re, Mycroft,
+    \xE9tait un grand enqu\xEAteur, il m'a enseign\xE9 toutes les ficelles du m\xE9tier
+    et je pense m\xEAme qu'il m'a transmis sa passion pour les whisky mais je crois
+    que ca aide dans le m\xE9tier ! Toutes ces horreurs qu'on voit\u2026\n\nJ'avais
     un mari, mais il est mort r\xE9cemment, c'est atroce comme il me manque. Je ferais
     tout pour le revoir..."
   _sprite: {fileID: 21300000, guid: 643b665dd205ee347a30070877762a04, type: 3}
   _displayClueCount: 10
   _isCulprit: 1
   _deductionTitle: Le whisky me joue des tours
-  _deductionStory: "Mon p\xE8re disait toujours, si \xE7a ressemble \xE0 du whisky,
+  _deductionStory: "Mon p\xE8re disait toujours, si ca ressemble \xE0 du whisky,
     si \xE7a a l\u2019odeur du whisky c\u2019est probablement du whisky\u2026 Il
     y a un d\xE9nominateur commun \xE0 toutes les preuves... Moi\u2026 \n\nCa me
     semble totalement d\xE9lirant pourquoi aurai-je tu\xE9 cette personne? Et puis,
@@ -60,7 +60,7 @@ MonoBehaviour:
     comme Cthulhu si on n\u2019est pas concentr\xE9\u2026 Et vu le nombre de bouteilles
     vides, la personne ne devait pas \xEAtre tr\xE8s lucide\u2026 Je ne lui jetterais
     pas la pierre, moi-m\xEAme je donnerais tout pour un verre, je suis certaine
-    que sa ferait passer mon mal de t\xEAte\u2026\r\n\r\nMais!? C\u2019est mon alliance!
+    que ca ferait passer mon mal de t\xEAte\u2026\r\n\r\nMais!? C\u2019est mon alliance!
     Je suis s\xFBre de ne pas l\u2019avoir perdu durant mon investigation sur le
     lieu du crime, je porte toujours des gants\u2026\n\nAaah ces voix dans ma t\xEAte
     r\xE9sonnent, j\u2019ai tellement mal, je n\u2019en peux plus\u2026 \xC0 voir
@@ -70,7 +70,7 @@ MonoBehaviour:
     me laisser mourir\u2026 oh Charles mon bien aim\xE9 je ferais tout pour te revoir\u2026\r\n\r\nJ\u2019ai
     l\u2019impression d\u2019\xEAtre malade\u2026 Je me sens faible\u2026 mes souvenirs
     reviennent\u2026 Non, ce n\u2019est pas possible\u2026 Ai-je fait ce rituel?
-    Suis-je la victime? ou bien le meurtrier? \xC7a n'a plus d\u2019importance, j\u2019ai
+    Suis-je la victime? ou bien le meurtrier? Ca n'a plus d\u2019importance, j\u2019ai
     trop mal \xE0 la t\xEAte\u2026 Je n\u2019en supporterais plus davantage\u2026\nAdieu,
     retrouvons-nous mon bien aim\xE9\u2026\r"
   _endingSpeech: {fileID: 0}
