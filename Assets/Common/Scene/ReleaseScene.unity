@@ -1551,6 +1551,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1728858458 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3843789450179464594, guid: 854e41493d8774947af5dce13452173e, type: 3}
+  m_PrefabInstance: {fileID: 3250072787477195814}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1728858462
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728858458}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07440004, y: 0.520332, z: 2.5777085}
+  m_Center: {x: -0.0000019073482, y: 0, z: 0.98497367}
 --- !u!1 &1869647012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1920,6 +1938,26 @@ PrefabInstance:
     - target: {fileID: 5477679444722806709, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: m_Name
       value: HOTELROOM
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788817027783547487, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_Size.z
+      value: 6.3308806
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788817027783547487, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_Center.x
+      value: 1.2016636e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788817027783547487, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_Center.z
+      value: 0.41544032
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788817027787438632, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_Size.x
+      value: 1.7707121
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788817027787438632, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_Center.x
+      value: 0.13166876
       objectReference: {fileID: 0}
     - target: {fileID: 5788817028113304294, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: m_IsActive
