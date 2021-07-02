@@ -1164,5 +1164,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "J'ai \xE9t\xE9 appel\xE9e sur une nouvelle enqu\xEAte,\nUn meurtre bizarre
-    dans une chambre d'hotel"
+  m_Text: "Oh, quel mal de cr\xE2ne... Je sais pas si c'est \xE0 cause du whisky...
+    Mais ca r\xE9sonne dans ma t\xEAte...\n\nAllez, une nouvelle enqu\xEAte... On
+    pourrait pas me laisser cuver tranquillement dans mon coin?\n\nEt non, la rancon
+    de la gloire, je suis incollable dans ce genre d'affaire..."
