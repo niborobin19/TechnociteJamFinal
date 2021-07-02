@@ -26,9 +26,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _channel: {fileID: 11400000, guid: 01bc0595564670f46a28bfdbf62a29e2, type: 2}
-  _responseText: '"Que j''aimais voir Charles lire ce bouquin dans le fauteuil"'
-  _responseAudio: {fileID: 0}
-  _responseVolume: 1
+  _responseText: '"Qu''est ce que j''aimais voir Charles lire ce bouquin dans le
+    fauteuil"'
+  _responseAudio: {fileID: 8300000, guid: 512cd46a06c970743a9f8bc2658b571b, type: 3}
+  _responseVolume: 0.5
   _displayedText: {fileID: 11400000, guid: 7d88231b675135544b8979039ddc12c9, type: 2}
 --- !u!65 &9161047673838447131
 BoxCollider:
@@ -71,8 +72,8 @@ MonoBehaviour:
   _channel: {fileID: 11400000, guid: 01bc0595564670f46a28bfdbf62a29e2, type: 2}
   _responseText: "\"Un recueil de nouvelles d'Edgar Allan Poe...C'\xE9tait son auteur
     pr\xE9f\xE9r\xE9....\""
-  _responseAudio: {fileID: 0}
-  _responseVolume: 1
+  _responseAudio: {fileID: 8300000, guid: 3223b1fb3c2475a4495d1caedd9fc3d8, type: 3}
+  _responseVolume: 0.5
   _displayedText: {fileID: 11400000, guid: 7d88231b675135544b8979039ddc12c9, type: 2}
 --- !u!65 &9161047672393789769
 BoxCollider:
@@ -142,7 +143,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 049e802146152de499fcca3d3d65e633, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.25
+  m_Volume: 0.15
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -269,10 +270,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _channel: {fileID: 11400000, guid: 01bc0595564670f46a28bfdbf62a29e2, type: 2}
-  _responseText: "\"Tu ne crois pas que tu as assez bu, tu ne te rappelles m\xEAme
+  _responseText: "\"On voit bien que tu as exarg\xE9r\xE9, tu ne te rappelles m\xEAme
     plus de  ta soir\xE9e d'hier.\""
-  _responseAudio: {fileID: 0}
-  _responseVolume: 1
+  _responseAudio: {fileID: 8300000, guid: 579eb641c05e3d841a64425520fefa2c, type: 3}
+  _responseVolume: 0.5
   _displayedText: {fileID: 11400000, guid: 7d88231b675135544b8979039ddc12c9, type: 2}
 --- !u!65 &9161047672065396310
 BoxCollider:
@@ -314,7 +315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _channel: {fileID: 11400000, guid: 1da2570d0bc708843a6c39f9c239369d, type: 2}
   _warpDelay: 1
-  _warpSound: {fileID: 8300000, guid: 795381df6ade13643a2ecaa57f6182f7, type: 3}
+  _warpSound: {fileID: 8300000, guid: 9499c16c7ff151046b71eb793821478e, type: 3}
   _warpSoundVolumeCoefficient: 1
   _destination: {fileID: 400669880884144659}
   _onWarping: {fileID: 11400000, guid: 0dc25ce65a597f14c8bf0c4a27e9b17e, type: 2}
@@ -359,8 +360,8 @@ MonoBehaviour:
   _channel: {fileID: 11400000, guid: 01bc0595564670f46a28bfdbf62a29e2, type: 2}
   _responseText: "\"Ce tiroir est  ferm\xE9 depuis tellement longtemps que je ne
     sais m\xEAme plus ce qui s'y trouve\""
-  _responseAudio: {fileID: 0}
-  _responseVolume: 1
+  _responseAudio: {fileID: 8300000, guid: feea6e9cf9603ce4cb38d9df792d296c, type: 3}
+  _responseVolume: 0.5
   _displayedText: {fileID: 11400000, guid: 7d88231b675135544b8979039ddc12c9, type: 2}
 --- !u!1 &4125345499525334526
 GameObject:
@@ -460,8 +461,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _channel: {fileID: 11400000, guid: 01bc0595564670f46a28bfdbf62a29e2, type: 2}
   _responseText: '" C''est une photo de notre mariage, Il me manque tellement"'
-  _responseAudio: {fileID: 0}
-  _responseVolume: 1
+  _responseAudio: {fileID: 8300000, guid: b3848c6167c8586439777d32268468e9, type: 3}
+  _responseVolume: 0.5
   _displayedText: {fileID: 11400000, guid: 7d88231b675135544b8979039ddc12c9, type: 2}
 --- !u!65 &9161047671962562015
 BoxCollider:
@@ -489,8 +490,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _channel: {fileID: 11400000, guid: 1da2570d0bc708843a6c39f9c239369d, type: 2}
-  _clic: {fileID: 8300000, guid: 795381df6ade13643a2ecaa57f6182f7, type: 3}
-  _clicVolumeCoefficient: 1
+  _clic: {fileID: 8300000, guid: 176e81f15b54ed6409bada83c50bc5fb, type: 3}
+  _clicVolumeCoefficient: 0.5
   _light: {fileID: 9161047672294693224}
 --- !u!65 &9161047672199487627
 BoxCollider:
@@ -571,8 +572,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _channel: {fileID: 11400000, guid: 01bc0595564670f46a28bfdbf62a29e2, type: 2}
   _responseText: '"Ce verre doit coller au bureau depuis le temps.."'
-  _responseAudio: {fileID: 0}
-  _responseVolume: 1
+  _responseAudio: {fileID: 8300000, guid: c74b03824787bb1449494180bc07e52c, type: 3}
+  _responseVolume: 0.5
   _displayedText: {fileID: 11400000, guid: 7d88231b675135544b8979039ddc12c9, type: 2}
 --- !u!65 &9161047673758193978
 BoxCollider:
@@ -602,8 +603,8 @@ MonoBehaviour:
   _channel: {fileID: 11400000, guid: 01bc0595564670f46a28bfdbf62a29e2, type: 2}
   _responseText: "\"Si seulement il pouvait arr\xEAter de sonner... Ce sont toujours
     de mauvaises nouvelles.\""
-  _responseAudio: {fileID: 0}
-  _responseVolume: 1
+  _responseAudio: {fileID: 8300000, guid: a14311ded60867d4d9fc76dd1bbed229, type: 3}
+  _responseVolume: 0.5
   _displayedText: {fileID: 11400000, guid: 7d88231b675135544b8979039ddc12c9, type: 2}
 --- !u!1 &9161047672294693225
 GameObject:
@@ -915,20 +916,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3322723262900712358, guid: 14b40d77c51ff9449b613c4fb157e4a3, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3322723262900712358, guid: 14b40d77c51ff9449b613c4fb157e4a3, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3322723262900712358, guid: 14b40d77c51ff9449b613c4fb157e4a3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.405
       objectReference: {fileID: 0}
     - target: {fileID: 3322723262900712358, guid: 14b40d77c51ff9449b613c4fb157e4a3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.475
+      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: 3322723262900712358, guid: 14b40d77c51ff9449b613c4fb157e4a3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -936,7 +929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3322723262900712358, guid: 14b40d77c51ff9449b613c4fb157e4a3, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3322723262900712358, guid: 14b40d77c51ff9449b613c4fb157e4a3, type: 3}
       propertyPath: m_LocalRotation.x
@@ -944,7 +937,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3322723262900712358, guid: 14b40d77c51ff9449b613c4fb157e4a3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3322723262900712358, guid: 14b40d77c51ff9449b613c4fb157e4a3, type: 3}
       propertyPath: m_LocalRotation.z
@@ -956,35 +949,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3322723262900712358, guid: 14b40d77c51ff9449b613c4fb157e4a3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 3322723262900712358, guid: 14b40d77c51ff9449b613c4fb157e4a3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6666668589498347858, guid: 14b40d77c51ff9449b613c4fb157e4a3, type: 3}
-      propertyPath: _lineEndColor.b
-      value: 0.36078432
-      objectReference: {fileID: 0}
-    - target: {fileID: 6666668589498347858, guid: 14b40d77c51ff9449b613c4fb157e4a3, type: 3}
-      propertyPath: _lineEndColor.g
-      value: 0.47450984
-      objectReference: {fileID: 0}
-    - target: {fileID: 6666668589498347858, guid: 14b40d77c51ff9449b613c4fb157e4a3, type: 3}
-      propertyPath: _lineEndColor.r
-      value: 0.21568629
-      objectReference: {fileID: 0}
-    - target: {fileID: 6666668589498347858, guid: 14b40d77c51ff9449b613c4fb157e4a3, type: 3}
-      propertyPath: _lineStartColor.b
-      value: 0.37441796
-      objectReference: {fileID: 0}
-    - target: {fileID: 6666668589498347858, guid: 14b40d77c51ff9449b613c4fb157e4a3, type: 3}
-      propertyPath: _lineStartColor.g
-      value: 0.49056602
-      objectReference: {fileID: 0}
-    - target: {fileID: 6666668589498347858, guid: 14b40d77c51ff9449b613c4fb157e4a3, type: 3}
-      propertyPath: _lineStartColor.r
-      value: 0.2244571
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14b40d77c51ff9449b613c4fb157e4a3, type: 3}
