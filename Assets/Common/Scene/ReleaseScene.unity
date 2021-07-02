@@ -544,7 +544,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 9499c16c7ff151046b71eb793821478e, type: 3}
     - target: {fileID: 9161047672160662832, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
       propertyPath: _responseText
-      value: '"Qu''est ce que j''aimais voir Charles lire ce bouquin dans le fauteuil"'
+      value: '"Qu''est ce que j''aimais voir Charles lire ce bouquin dans le fauteuil."'
       objectReference: {fileID: 0}
     - target: {fileID: 9161047672160662832, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
       propertyPath: _responseAudio
@@ -555,6 +555,11 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 9161047672190750196, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: _responseText
+      value: "\"Ce tiroir est ferm\xE9 depuis tellement longtemps que je ne sais
+        m\xEAme plus ce qui s'y trouve.\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 9161047672190750196, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: feea6e9cf9603ce4cb38d9df792d296c, type: 3}
@@ -562,10 +567,26 @@ PrefabInstance:
       propertyPath: _responseVolume
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 9161047672294693224, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9161047672294693224, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9161047672294693224, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9161047672294693224, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9161047672480900914, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
       propertyPath: _responseText
-      value: "\"On voit bien que tu as exarg\xE9r\xE9, tu ne te rappelles m\xEAme
-        plus de  ta soir\xE9e d'hier.\""
+      value: "\"On voit bien que tu as exag\xE9r\xE9, tu ne te rappelles m\xEAme
+        plus de ta soir\xE9e d'hier.\""
       objectReference: {fileID: 0}
     - target: {fileID: 9161047672480900914, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
       propertyPath: _responseAudio
@@ -574,6 +595,10 @@ PrefabInstance:
     - target: {fileID: 9161047672480900914, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
       propertyPath: _responseVolume
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9161047672844639755, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
+      propertyPath: _responseText
+      value: '" C''est une photo de notre mariage, Il me manque tellement."'
       objectReference: {fileID: 0}
     - target: {fileID: 9161047672844639755, guid: 78aff412ce2a3ef458774c1d1f12260b, type: 3}
       propertyPath: _responseAudio
@@ -732,8 +757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _channel: {fileID: 11400000, guid: 01bc0595564670f46a28bfdbf62a29e2, type: 2}
-  _responseText: "\u201CIl fait tellement brumeux\u2026 \xC7a donne une ambiance
-    \xE9trange..."
+  _responseText: "\u201CIl fait tellement brumeux\u2026 Ca donne une ambiance \xE9trange..."
   _responseAudio: {fileID: 8300000, guid: e5dbdc8164707024c8ffde270c0c652c, type: 3}
   _responseVolume: 0.5
   _displayedText: {fileID: 11400000, guid: 7d88231b675135544b8979039ddc12c9, type: 2}
@@ -795,23 +819,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 539733253, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 45
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 593493389, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 27
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1803931382, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 15
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 61316516664472273, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 27
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 271506750591578173, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 38
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 806488935963666122, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_Pivot.x
@@ -907,19 +931,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 967472711710721765, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 27
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1263238203257941302, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 51
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 1981213437128974152, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 16
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2078612137206481207, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 28
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 3041004075006829266, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_AnchorMax.y
@@ -971,7 +995,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4219470810347857924, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 21
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4728981297916654433, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4897078633803648991, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_MaxSize
@@ -979,7 +1007,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4897078633803648991, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 100
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 5053945847496421036, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1047,27 +1075,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6944188375415453640, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 14
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7238465928084479111, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 32
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7685381653591557558, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 58
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 7806801143156618744, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 45
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7806801144102573579, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 15
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8524538771363049061, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 27
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92c95789da9f55149a13d6b0ec42b3b9, type: 3}
@@ -1161,6 +1189,10 @@ PrefabInstance:
     - target: {fileID: 8362535076874488710, guid: 78078f6e1ddadd940a84a0e5ef8ce6a4, type: 3}
       propertyPath: m_Center.z
       value: 0.2930204
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362535076874488711, guid: 78078f6e1ddadd940a84a0e5ef8ce6a4, type: 3}
+      propertyPath: _responseText
+      value: '"Ce lit a l''air tellement confortable..."'
       objectReference: {fileID: 0}
     - target: {fileID: 8362535077287801823, guid: 78078f6e1ddadd940a84a0e5ef8ce6a4, type: 3}
       propertyPath: m_Size.x
@@ -1608,6 +1640,14 @@ PrefabInstance:
       propertyPath: _clicVolumeCoefficient
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1399562530, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1417883983, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 45669138772662234, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: m_Size.x
       value: 2.9816928
@@ -1645,12 +1685,21 @@ PrefabInstance:
       value: -0.6043763
       objectReference: {fileID: 0}
     - target: {fileID: 3250072787402748578, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseText
+      value: "\"Des bougies... Elles ont l'air d\xE9j\xE0 bien entam\xE9es... Pourquoi
+        sont-elles au sol ?\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072787402748578, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: 4797a47fb7fc4d54ea0ee5c1a366dee3, type: 3}
     - target: {fileID: 3250072787402748578, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseVolume
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072787611297677, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseText
+      value: "\"Le temps passe si vite\u2026 Allez, il faut que je me d\xE9p\xEAche!\""
       objectReference: {fileID: 0}
     - target: {fileID: 3250072787611297677, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseVolume
@@ -1710,6 +1759,11 @@ PrefabInstance:
       value: 0.01074555
       objectReference: {fileID: 0}
     - target: {fileID: 3250072788221630310, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseText
+      value: "\u201CQu\u2019est ce que j\u2019aimerais pouvoir dormir\u2026 Mais
+        pas s\xFBre de vouloir me r\xE9veiller un jour...\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072788221630310, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseVolume
       value: 0.5
       objectReference: {fileID: 0}
@@ -1718,12 +1772,21 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3250072788259297813, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseText
+      value: '"Ce lit a l''air tellement confortable..."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072788259297813, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: 45adb0a84daa7144daa925f4c279e1d0, type: 3}
     - target: {fileID: 3250072788259297813, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseVolume
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072788842214425, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseText
+      value: "\"Quelle est cette mixture, ca donne bien faim en tout cas... Depuis
+        quand j'ai plus mang\xE9 au fait ?\""
       objectReference: {fileID: 0}
     - target: {fileID: 3250072788842214425, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseAudio
@@ -1764,7 +1827,7 @@ PrefabInstance:
     - target: {fileID: 3250072788892980956, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseText
       value: "\"Tellement de lectures int\xE9ressantes et jamais suffisamment de
-        temps\""
+        temps.\""
       objectReference: {fileID: 0}
     - target: {fileID: 3250072788892980956, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseAudio
@@ -1775,8 +1838,16 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3250072789056704577, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseText
+      value: "\u201CMon royaume pour un Whisky.\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072789056704577, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseVolume
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072789161922456, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseText
+      value: "\"Je vois qu'on a eu une nuit bien agit\xE9e par ici.\""
       objectReference: {fileID: 0}
     - target: {fileID: 3250072789161922456, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseAudio
@@ -1807,12 +1878,20 @@ PrefabInstance:
       value: -0.0002999302
       objectReference: {fileID: 0}
     - target: {fileID: 3250072789173949591, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseText
+      value: "\"Tu veux t\xE9l\xE9phoner \xE0 qui \xE0 cette heure-ci ?\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250072789173949591, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseAudio
       value: 
       objectReference: {fileID: 8300000, guid: 1c67d9f09ef81ac44b8318473c89dbf5, type: 3}
     - target: {fileID: 3250072789173949591, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseVolume
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3980340934888001598, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseText
+      value: "\"Il n'y a rien l\xE0-dedans.\""
       objectReference: {fileID: 0}
     - target: {fileID: 3980340934888001598, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseAudio
@@ -1913,6 +1992,10 @@ PrefabInstance:
     - target: {fileID: 6832120034859045380, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7167805196656760860, guid: 854e41493d8774947af5dce13452173e, type: 3}
+      propertyPath: _responseText
+      value: "\u201CIl fait tellement brumeux\u2026 Ca donne une ambiance \xE9trange..."
       objectReference: {fileID: 0}
     - target: {fileID: 7167805196656760860, guid: 854e41493d8774947af5dce13452173e, type: 3}
       propertyPath: _responseAudio

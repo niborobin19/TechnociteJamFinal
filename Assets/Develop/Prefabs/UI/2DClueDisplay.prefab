@@ -373,7 +373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _lineCount: 3
-  _fontSizeCorrector: 0.75
+  _fontSizeCorrector: 0.7
   _target: {fileID: 4240866070092127446}
 --- !u!222 &6549977540185605764
 CanvasRenderer:
