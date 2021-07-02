@@ -33,11 +33,11 @@ MonoBehaviour:
   _deductionStory: "Tout concorde, c'est lui le tueur. Son mobile est \xE0 la fois
     simple et vieux comme le monde, la convoitise\u2026 Je sais qu\u2019il collectionne
     ce genre d'objets m\xEAme s\u2019il n\u2019y conna\xEEt pas grand-chose en pratique
-    \xE9sot\xE9rique. Il voulait l\u2019arme rituel! mais la vendeuse a d\xFB refuser
+    \xE9sot\xE9rique.\nIl voulait l\u2019arme rituel! mais la vendeuse a d\xFB refuser
     ou bien demander un prix exorbitant. Du coup le c\xF4t\xE9 obsessionnel d\u2019Henri
     \xE0 pris le dessus et il l\u2019a abattue!\r\nCependant pris de panique, je
     pense qu\u2019il a voulu maquiller la sc\xE8ne pour faire croire \xE0 un obscur
-    rituel qui a mal tourn\xE9. Cependant j\u2019ai \xE9tudi\xE9 un peu les sciences
+    rituel qui a mal tourn\xE9.\n\nCependant j\u2019ai \xE9tudi\xE9 un peu les sciences
     occultes r\xE9cemment, je ne me souviens plus trop pourquoi... Mais des \xE9l\xE9ments
     ne collent pas, c\u2019est trop brouillons pour un initi\xE9, il y a des erreurs
     qui pourraient \xEAtre dangereuses dans ce type de rite Cthulhien. \r\nComment
@@ -53,15 +53,15 @@ MonoBehaviour:
   _deductionSpeech: {fileID: 0}
   _deductionSpeechVolume: 0.5
   _endingTitle: Confrontation
-  _endingStory: "Henri s'\xE9vertue \xE0 clamer son innocence\u2026 Son avocat lui
-    a trouv\xE9 un t\xE9moin, le gardien du cimeti\xE8re! Rien que \xE7a! Il l\u2019aurait
-    aper\xE7u en train de se recueillir sur le caveau familial. Moi je pense qu\u2019Henri
-    l\u2019a pay\xE9 pour son t\xE9moignage!\r\nBon, l\u2019avocat vient avec d'autres
-    t\xE9moignages: la fleuriste qui lui a vendu des fleurs pour le caveau de ses
-    parents, le pr\xEAtre dit lui avoir parl\xE9 de la collection de sa m\xE8re,
-    et m\xEAme l\u2019apothicaire\u2026\r\nMe serais-je tromp\xE9e? Je retourne au
-    bureau pour \xE9tudier l\u2019affaire et sur le lieu du crime pour trouver d'autres
-    indices.\r"
+  _endingStory: "Henri s'\xE9vertue \xE0 clamer son innocence\u2026 \n\nSon avocat
+    lui a trouv\xE9 un t\xE9moin, le gardien du cimeti\xE8re! Rien que \xE7a! Il
+    l\u2019aurait aper\xE7u en train de se recueillir sur le caveau familial. Moi
+    je pense qu\u2019Henri l\u2019a pay\xE9 pour son t\xE9moignage!\r\n\nBon, l\u2019avocat
+    vient avec d'autres t\xE9moignages: la fleuriste qui lui a vendu des fleurs pour
+    le caveau de ses parents, le pr\xEAtre dit lui avoir parl\xE9 de la collection
+    de sa m\xE8re, et m\xEAme l\u2019apothicaire\u2026\r\n\nMe serais-je tromp\xE9e?
+    Je retourne au bureau pour \xE9tudier l\u2019affaire et sur le lieu du crime
+    pour trouver d'autres indices.\r"
   _endingSpeech: {fileID: 0}
   _endingSpeechVolume: 0.5
   _relatedClues:
